@@ -1,0 +1,16 @@
+{
+  // These lines are ignored as comments.
+  // Use these two settings to change the hotkeys for viewing or clearing the log file.
+  // Note that "clearing" the logfile does not affect the file on your system, only the internal copy.
+  // These hotkeys should be formated with optional modifier keys followed by a valid non-modifier KeyCode.
+  // Examples:
+  //  - "^X" = Ctrl+X
+  //  - "Escape" = Esc
+  //  - "!@Tab" = Alt+Windows/Command+Tab
+  // See https://docs.unity3d.com/ScriptReference/KeyCode.html for a KeyCode Reference.
+  // Modifier Keys are '^'=Control, '_'=Shift, '!'=Alt, '@'=Windows/Command
+  // Note that any invalid hotkey will result in the default hotkey. Look at the log for more information. Also, don't use Mouse* or Joystick* KeyCodes unless you know exactly what you are doing.
+
+  "keyViewLogfile": "_F8",
+  "keyClearLogfile": "_F9"
+}
