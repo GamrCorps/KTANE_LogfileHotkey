@@ -9,7 +9,10 @@ using UnityEngine;
 public class LogfileUploader : MonoBehaviour {
     public static LogfileUploader Instance;
 
+    public bool loggingEnabled = false;
+
     public string Log { get; private set; }
+    public string LastBombLog { get; private set; }
 
     [HideInInspector]
     public string analysisUrl = null;
@@ -64,20 +67,24 @@ public class LogfileUploader : MonoBehaviour {
 
     public void Clear() {
         Log = "";
+        LastBombLog = "";
     }
 
-    public string Flush() {
-        string result = Log;
-        Log = "";
-        return result;
+    public void ClearLastBombLog() {
+        LastBombLog = "";
     }
 
-    public void Open(bool openLink = true) {
+    public void Open(bool copyLink, bool openLink = true) {
         analysisUrl = null;
-        StartCoroutine(DoPost(Log, openLink));
+        StartCoroutine(DoPost(Log, openLink, copyLink));
     }
 
-    private IEnumerator DoPost(string data, bool openLink) {
+    public void OpenLastBomb(bool copyLink, bool openLink = true) {
+        analysisUrl = null;
+        StartCoroutine(DoPost(LastBombLog, openLink, copyLink));
+    }
+
+    private IEnumerator DoPost(string data, bool openLink, bool copyLink) {
         // This first line is necessary as the Log Analyser uses it as an identifier
         data = "Initialize engine version: Twitch Plays\n" + data;
 
@@ -122,6 +129,10 @@ public class LogfileUploader : MonoBehaviour {
                     OpenLink();
                 }
 
+                if (copyLink) {
+                    CopyLink();
+                }
+
                 break;
             } else {
                 Debug.Log(LOGPREFIX + "Error: " + www.error);
@@ -145,10 +156,17 @@ public class LogfileUploader : MonoBehaviour {
         return true;
     }
 
+    public void CopyLink() {
+        GUIUtility.systemCopyBuffer = analysisUrl;
+    }
+
     private void HandleLog(string message, string stackTrace, LogType type) {
         if (_blacklistedLogLines.Any(message.StartsWith)) return;
         if (message.StartsWith("Function ") && message.Contains(" may only be called from main thread!")) return;
-        Log += message + "\n";
+        if (loggingEnabled) {
+            Log += message + "\n";
+            LastBombLog += message + "\n";
+        }
     }
 
     public string LogAnalyser = "https://ktane.timwi.de/More/Logfile%20Analyzer.html";

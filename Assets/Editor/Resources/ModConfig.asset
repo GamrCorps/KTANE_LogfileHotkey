@@ -14,8 +14,9 @@ MonoBehaviour:
   id: LogfileHotkey
   title: Log Viewer Hotkey
   description: Now you can press Shift+F8 to view the log in the logfile analyzer
-    and Shift+F9 to clear the log. These hotkeys can be changed the ModSettings folder.
-    Contact @ZekNikZ#0878 on Discord with any questions/comments.
-  version: 1.0
+    and Shift+F9 to clear the log. Shift+F7 also opens just the last bomb. These hotkeys
+    can be changed in the ModSettings folder. Contact @ZekNikZ#0878 on Discord with
+    any questions/comments.
+  version: 2.0
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 9368e92b4cb3f1d45a370f063b10dd75, type: 3}

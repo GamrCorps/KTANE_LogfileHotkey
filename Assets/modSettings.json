@@ -12,5 +12,7 @@
   // Note that any invalid hotkey will result in the default hotkey. Look at the log for more information. Also, don't use Mouse* or Joystick* KeyCodes unless you know exactly what you are doing.
 
   "keyViewLogfile": "_F8",
-  "keyClearLogfile": "_F9"
+  "keyClearLogfile": "_F9",
+  "keyViewLastBombLogfile": "_F7",
+  "copyLogfileLinkWhenViewed":  true
 }
