@@ -1,15 +1,18 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Specialized;
 using System.Linq;
 using UnityEngine;
 
-// Shamelessly borrowed and modified from Twitch Plays KTANE code.
-// Original file by CaitSith2, red031000, and samfun123
-
 public class LogfileUploader : MonoBehaviour {
+
     public static LogfileUploader Instance;
 
+    [HideInInspector]
     public bool loggingEnabled = false;
+
+    [HideInInspector]
+    public bool logPostBomb = false;
 
     public string Log { get; private set; }
     public string LastBombLog { get; private set; }
@@ -17,16 +20,11 @@ public class LogfileUploader : MonoBehaviour {
     [HideInInspector]
     public string analysisUrl = null;
 
-    [HideInInspector]
-    public string LOGPREFIX = "[LogfileHotkey] ";
-
     private string[] _blacklistedLogLines = {
-       "[PaceMaker]",
        "[ServicesSteam]",
        "[BombGenerator] Instantiated EmptyComponent",
        "[BombGenerator] Filling remaining spaces with empty components.",
        "[BombGenerator] BombTypeEnum: Default",
-       "[StatsManager]",
        "[FileUtilityHelper]",
        "[MenuPage]",
        "[PlayerSettingsManager]",
@@ -35,6 +33,7 @@ public class LogfileUploader : MonoBehaviour {
        "[AlarmClock]",
        "[AlarmClockExtender]",
        "[Alarm Clock Extender]",
+       "[StatsManager]",
        "[BombGenerator] Instantiated TimerComponent",
        "[BombGenerator] Instantiating RequiresTimerVisibility components on",
        "[BombGenerator] Instantiating remaining components on any valid face.",
@@ -43,17 +42,19 @@ public class LogfileUploader : MonoBehaviour {
        "Calculated FPS: ",
        "[ModuleCameras]",
        "[TwitchPlays]",
-       "(Filename:  Line: 21)"
+       "(Filename:  Line: 21)",
+       "[Factory]"
     };
 
-    private OrderedDictionary domainNames = new OrderedDictionary {
-		// In order of preference (favourite first)
-		// The integer value is the data size limit in bytes
-		{ "hastebin.com", 400000 },
-        { "ktane.w00ty.com", 2000000 }
+    private string[] _gameplayBlacklistedLogLines = {
+        "[PaceMaker]"
     };
 
-    public void Awake() {
+    private LogService[] services = {
+        new HastebinLogService()
+    };
+
+    private void Awake() {
         Instance = this;
     }
 
@@ -76,91 +77,44 @@ public class LogfileUploader : MonoBehaviour {
 
     public void Open(bool copyLink, bool openLink = true) {
         analysisUrl = null;
-        StartCoroutine(DoPost(Log, openLink, copyLink));
+        DoPost(Log, openLink, copyLink);
     }
 
     public void OpenLastBomb(bool copyLink, bool openLink = true) {
         analysisUrl = null;
-        StartCoroutine(DoPost(LastBombLog, openLink, copyLink));
+        DoPost(LastBombLog, openLink, copyLink);
     }
 
-    private IEnumerator DoPost(string data, bool openLink, bool copyLink) {
-        // This first line is necessary as the Log Analyser uses it as an identifier
-        data = "Initialize engine version: Twitch Plays\n" + data;
+    private void DoPost(string data, bool openLink, bool copyLink) {
+        data = "Initialize engine version: Log Viewer Hotkey\n" + data;
 
         byte[] encodedData = System.Text.Encoding.UTF8.GetBytes(data);
         int dataLength = encodedData.Length;
 
         bool tooLong = false;
 
-        foreach (DictionaryEntry domain in domainNames) {
-            string domainName = (string)domain.Key;
-            int maxLength = (int)domain.Value;
+        foreach (LogService service in services) {
+            string baseURL = service.BaseURL;
+            int uploadLimit = service.UploadLimit;
 
             tooLong = false;
-            if (dataLength >= maxLength) {
-                Debug.LogFormat(LOGPREFIX + "Data ({0}B) is too long for {1} ({2}B)", dataLength, domainName, maxLength);
+            if (dataLength >= uploadLimit) {
+                Debug.LogFormat("[LogfileHotkey] Data ({0}B) is too long for {1} ({2}B)", dataLength, baseURL, uploadLimit);
                 tooLong = true;
                 continue;
             }
 
-            Debug.Log(LOGPREFIX + "Posting new log to " + domainName);
-
-            string url = "https://" + domainName + "/documents";
-
-            WWW www = new WWW(url, encodedData);
-
-            yield return www;
-
-            if (www.error == null) {
-                // example result
-                // {"key":"oxekofidik"}
-
-                string key = www.text;
-                key = key.Substring(0, key.Length - 2);
-                key = key.Substring(key.LastIndexOf("\"") + 1);
-                string rawUrl = "https://" + domainName + "/raw/" + key;
-
-                Debug.Log(LOGPREFIX + "Paste now available at " + rawUrl);
-
-                analysisUrl = LogAnalyserFor(rawUrl);
-
-                if (openLink) {
-                    OpenLink();
-                }
-
-                if (copyLink) {
-                    CopyLink();
-                }
-
-                break;
-            } else {
-                Debug.Log(LOGPREFIX + "Error: " + www.error);
-            }
+            Debug.LogFormat("[LogfileHotkey] Attempting to post log to {0}", baseURL);
+            StartCoroutine(service.Upload(encodedData, openLink, copyLink));
         }
 
         if (tooLong) {
-            Debug.Log(LOGPREFIX + "Error uploading log file.");
+            Debug.Log("[LogfileHotkey] Error uploading log file.");
         }
-
-        yield break;
-    }
-
-    public bool OpenLink() {
-        if (string.IsNullOrEmpty(analysisUrl)) {
-            Debug.Log(LOGPREFIX + "No analysis URL available, can't open.");
-            return false;
-        }
-        Debug.Log(LOGPREFIX + "Opening link in default browser.");
-        Application.OpenURL(analysisUrl);
-        return true;
-    }
-
-    public void CopyLink() {
-        GUIUtility.systemCopyBuffer = analysisUrl;
     }
 
     private void HandleLog(string message, string stackTrace, LogType type) {
+        if (!logPostBomb && _gameplayBlacklistedLogLines.Any(message.StartsWith)) return;
         if (_blacklistedLogLines.Any(message.StartsWith)) return;
         if (message.StartsWith("Function ") && message.Contains(" may only be called from main thread!")) return;
         if (loggingEnabled) {
@@ -168,10 +122,82 @@ public class LogfileUploader : MonoBehaviour {
             LastBombLog += message + "\n";
         }
     }
+}
 
-    public string LogAnalyser = "https://ktane.timwi.de/More/Logfile%20Analyzer.html";
+abstract class LogService {
+    public virtual string Name { get; protected set; }
+    public virtual string BaseURL { get; protected set; }
+    public virtual int UploadLimit { get; protected set; }
 
-    public string LogAnalyserFor(string url) {
-        return string.Format(LogAnalyser + "#url={0}", url);
+    public abstract IEnumerator Upload(byte[] data, bool openLink, bool copyLink);
+}
+
+static class LogUploadUtils {
+    public static bool OpenLink(string link) {
+        if (string.IsNullOrEmpty(link)) {
+            Debug.Log("[LogfileHotkey] No analysis URL available, can't open");
+            return false;
+        }
+        Debug.Log("[LogfileHotkey] Opening link in default browser");
+        Application.OpenURL(link);
+        return true;
+    }
+
+    public static bool CopyLink(string link) {
+        if (string.IsNullOrEmpty(link)) {
+            Debug.Log("[LogfileHotkey] No analysis URL available, can't copy");
+            return false;
+        }
+        Debug.Log("[LogfileHotkey] Copying link into clipboard");
+        GUIUtility.systemCopyBuffer = link;
+        return true;
+    }
+
+    private const string LogAnalyzerLink = "https://ktane.timwi.de/More/Logfile%20Analyzer.html";
+
+    public static string LogAnalyzerFor(string url) {
+        return string.Format("{0}#url={1}", LogAnalyzerLink, url);
+    }
+}
+
+class HastebinLogService : LogService {
+    public HastebinLogService() {
+        this.Name = "Hastebin";
+        this.BaseURL = "hastebin.com";
+        this.UploadLimit = 400000;
+    }
+
+    public override IEnumerator Upload(byte[] data, bool openLink, bool copyLink) {
+        string url = "https://hastebin.com/documents";
+
+        WWW www = new WWW(url, data);
+
+        yield return www;
+
+        if (www.error == null) {
+            // example result
+            // {"key":"oxekofidik"}
+
+            string key = www.text;
+            key = key.Substring(0, key.Length - 2);
+            key = key.Substring(key.LastIndexOf("\"") + 1);
+            string rawUrl = "https://hastebin.com/raw/" + key;
+
+            Debug.Log("[LogfileHotkey] Hastebin: paste now available at " + rawUrl);
+
+            string analysisUrl = LogUploadUtils.LogAnalyzerFor(rawUrl);
+
+            if (openLink) {
+                LogUploadUtils.OpenLink(analysisUrl);
+            }
+
+            if (copyLink) {
+                LogUploadUtils.CopyLink(analysisUrl);
+            }
+        } else {
+            Debug.Log("[LogfileHotkey] Error: " + www.error);
+        }
+
+        yield break;
     }
 }

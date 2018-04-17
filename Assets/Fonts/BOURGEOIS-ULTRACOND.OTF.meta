@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: db12cfb3b34b43249b0c0fb7d7027689
+timeCreated: 1523925297
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bourgeois UltraCond
+  fontNames:
+  - Bourgeois UltraCond
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

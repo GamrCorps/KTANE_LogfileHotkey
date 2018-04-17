@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 842974302fbe3954e82b97188d0f90c3
+timeCreated: 1523925297
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bourgeois Cond
+  fontNames:
+  - Bourgeois Cond
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

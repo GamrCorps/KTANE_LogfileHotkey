@@ -22,8 +22,9 @@ GameObject:
   - component: {fileID: 114890846908203886}
   - component: {fileID: 114191122369760936}
   - component: {fileID: 114523233301025090}
-  - component: {fileID: 114200410215110970}
   - component: {fileID: 114147499176181512}
+  - component: {fileID: 114490658836486354}
+  - component: {fileID: 114487699295754178}
   m_Layer: 0
   m_Name: LogfileHotkeyService
   m_TagString: Untagged
@@ -69,7 +70,7 @@ MonoBehaviour:
   Settings: '{  "keyViewLogfile": "_F8",   "keyClearLogfile": "_F9",   "keyViewLastBombLogfile":
     "_F7",   "copyLogfileLinkWhenViewed":  true }'
   SettingsPath: LogfileHotkey-settings.txt
---- !u!114 &114200410215110970
+--- !u!114 &114487699295754178
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -77,13 +78,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1943860275957280}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fd448066147c43429dda1f446e53e55, type: 3}
+  m_Script: {fileID: 11500000, guid: 3f2c76ef36cf45f479185704d8ba59f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   loggingEnabled: 0
+  logPostBomb: 0
   analysisUrl: 
-  LOGPREFIX: '[LogfileHotkey] '
-  LogAnalyser: https://ktane.timwi.de/More/Logfile%20Analyzer.html
+--- !u!114 &114490658836486354
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1943860275957280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2144496390, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114523233301025090
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -97,6 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ModSettings: {fileID: 114191122369760936}
   GameInfo: {fileID: 114147499176181512}
+  BombInfo: {fileID: 114490658836486354}
 --- !u!114 &114890846908203886
 MonoBehaviour:
   m_ObjectHideFlags: 1
