@@ -109,7 +109,7 @@ public class LogfileUploader : MonoBehaviour {
         }
 
         if (tooLong) {
-            Debug.Log("[LogfileHotkey] Error uploading log file.");
+            Debug.Log("[LogfileHotkey] Error uploading log file: too long.");
         }
     }
 
@@ -146,6 +146,7 @@ static class LogUploadUtils {
     public static bool CopyLink(string link) {
         if (string.IsNullOrEmpty(link)) {
             Debug.Log("[LogfileHotkey] No analysis URL available, can't copy");
+            GUIUtility.systemCopyBuffer = "LotfileHotkey Error: Check the log file for more information.";
             return false;
         }
         Debug.Log("[LogfileHotkey] Copying link into clipboard");
@@ -195,7 +196,7 @@ class HastebinLogService : LogService {
                 LogUploadUtils.CopyLink(analysisUrl);
             }
         } else {
-            Debug.Log("[LogfileHotkey] Error: " + www.error);
+            Debug.Log("[LogfileHotkey] Error uploading to Hastebin: " + www.error);
         }
 
         yield break;

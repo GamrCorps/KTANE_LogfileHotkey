@@ -18,6 +18,8 @@ public class LogfileHotkeyService : MonoBehaviour {
         public string keyClearLogfile;
         public string keyViewLastBombLogfile;
         public bool? copyLogfileLinkWhenViewed;
+        public string keyCopyLogfile;
+        public bool? copyLogfileForJustLastBomb;
     }
     Settings keySettings;
 
@@ -27,28 +29,35 @@ public class LogfileHotkeyService : MonoBehaviour {
     bool[] clearModifiers;
     KeyCode viewLastBombCode;
     bool[] viewLastBombModifiers;
+    KeyCode copyCode;
+    bool[] copyModifiers;
 
     KMGameInfo.State currentState;
 
     public void Start() {
         string settings = string.Join("\n", ModSettings.Settings.Split('\n').Where(x => !x.Trim().StartsWith("//")).ToArray());
         keySettings = JsonConvert.DeserializeObject<Settings>(settings);
-        if (keySettings.keyViewLogfile == null || keySettings.keyClearLogfile == null || keySettings.keyViewLastBombLogfile == null || keySettings.copyLogfileLinkWhenViewed == null) {
+        if (keySettings.keyViewLogfile == null || keySettings.keyClearLogfile == null || keySettings.keyViewLastBombLogfile == null || keySettings.copyLogfileLinkWhenViewed == null || keySettings.keyCopyLogfile == null || keySettings.copyLogfileForJustLastBomb == null) {
             WriteDefaultSettings();
             Settings newSettings = new Settings();
             newSettings.keyViewLogfile = keySettings.keyViewLogfile != null ? keySettings.keyViewLogfile : "_F8";
             newSettings.keyClearLogfile = keySettings.keyClearLogfile != null ? keySettings.keyClearLogfile : "_F9";
             newSettings.keyViewLastBombLogfile = keySettings.keyViewLastBombLogfile != null ? keySettings.keyViewLastBombLogfile : "_F7";
             newSettings.copyLogfileLinkWhenViewed = keySettings.copyLogfileLinkWhenViewed != null ? keySettings.copyLogfileLinkWhenViewed : true;
+            newSettings.keyCopyLogfile = keySettings.keyCopyLogfile != null ? keySettings.keyCopyLogfile : "^_F8";
+            newSettings.copyLogfileForJustLastBomb = keySettings.copyLogfileForJustLastBomb != null ? keySettings.copyLogfileForJustLastBomb : true;
             keySettings = newSettings;
         }
         SetupKey(out viewCode, out viewModifiers, keySettings.keyViewLogfile, KeyCode.F8, new bool[4] { false, false, false, true });
         SetupKey(out clearCode, out clearModifiers, keySettings.keyClearLogfile, KeyCode.F9, new bool[4] { false, false, false, true });
         SetupKey(out viewLastBombCode, out viewLastBombModifiers, keySettings.keyViewLastBombLogfile, KeyCode.F7, new bool[4] { false, false, false, true });
+        SetupKey(out copyCode, out copyModifiers, keySettings.keyCopyLogfile, KeyCode.F8, new bool[4] { true, false, false, true });
         Debug.LogFormat("[LogfileHotkey] \"View Log\" key combination set to: \"{0}{1}{2}{3}{4}\"", viewModifiers[0] ? "CTRL+" : "", viewModifiers[1] ? "ALT+" : "", viewModifiers[2] ? "WIN/CMD+" : "", viewModifiers[3] ? "SHIFT+" : "", viewCode);
         Debug.LogFormat("[LogfileHotkey] \"View Last Bomb Log\" key combination set to: \"{0}{1}{2}{3}{4}\"", viewLastBombModifiers[0] ? "CTRL+" : "", viewLastBombModifiers[1] ? "ALT+" : "", viewLastBombModifiers[2] ? "WIN/CMD+" : "", viewLastBombModifiers[3] ? "SHIFT+" : "", viewLastBombCode);
         Debug.LogFormat("[LogfileHotkey] \"Clear Log\" key combination set to: \"{0}{1}{2}{3}{4}\"", clearModifiers[0] ? "CTRL+" : "", clearModifiers[1] ? "ALT+" : "", clearModifiers[2] ? "WIN/CMD+" : "", clearModifiers[3] ? "SHIFT+" : "", clearCode);
         Debug.LogFormat("[LogfileHotkey] Auto-link copying set to: \"{0}\"", keySettings.copyLogfileLinkWhenViewed);
+        Debug.LogFormat("[LogfileHotkey] \"Copy Log\" key combination set to: \"{0}{1}{2}{3}{4}\"", copyModifiers[0] ? "CTRL+" : "", copyModifiers[1] ? "ALT+" : "", copyModifiers[2] ? "WIN/CMD+" : "", copyModifiers[3] ? "SHIFT+" : "", copyCode);
+        Debug.LogFormat("[LogfileHotkey] Copy last-bomb only set to: \"{0}\"", keySettings.copyLogfileForJustLastBomb);
         GameInfo.OnStateChange += delegate (KMGameInfo.State state) {
             if (state.Equals(KMGameInfo.State.Gameplay)) {
                 LogfileUploader.Instance.loggingEnabled = true;
@@ -85,14 +94,25 @@ public class LogfileHotkeyService : MonoBehaviour {
 
     public void Update() {
         if (Input.GetKeyDown(viewCode) && CheckModifiers(ref viewModifiers)) {
+            Debug.LogFormat("[LogfileHotkey] \"View Logfile\" hotkey pressed.");
             LogfileUploader.Instance.Open(keySettings.copyLogfileLinkWhenViewed != null && (bool)keySettings.copyLogfileLinkWhenViewed);
         }
         if (Input.GetKeyDown(clearCode) && CheckModifiers(ref clearModifiers)) {
+            Debug.LogFormat("[LogfileHotkey] \"Clear Logfile\" hotkey pressed.");
             LogfileUploader.Instance.Clear();
             Debug.LogFormat("[LogfileHotkey] Cleared internal log file");
         }
         if (Input.GetKeyDown(viewLastBombCode) && CheckModifiers(ref viewLastBombModifiers)) {
+            Debug.LogFormat("[LogfileHotkey] \"View Last Bomb Logfile\" hotkey pressed.");
             LogfileUploader.Instance.OpenLastBomb(keySettings.copyLogfileLinkWhenViewed != null && (bool)keySettings.copyLogfileLinkWhenViewed);
+        }
+        if (Input.GetKeyDown(copyCode) && CheckModifiers(ref copyModifiers)) {
+            Debug.LogFormat("[LogfileHotkey] \"Copy Logfile Link\" hotkey pressed.");
+            if (keySettings.copyLogfileForJustLastBomb != null && (bool) keySettings.copyLogfileForJustLastBomb) {
+                LogfileUploader.Instance.OpenLastBomb(true, false);
+            } else {
+                LogfileUploader.Instance.Open(true, false);
+            }
         }
     }
 
@@ -112,17 +132,17 @@ public class LogfileHotkeyService : MonoBehaviour {
                 keyCode = defaultKeyCode;
             }
         } else {
-            Debug.LogFormat("[LogfileHotkey] Invalid key combination in settings: \"{1}\"", keyCombination);
+            Debug.LogFormat("[LogfileHotkey] Invalid key combination in settings: \"{0}\"", keyCombination);
             modifiers = defaultKeyModifiers;
             keyCode = defaultKeyCode;
         }
     }
 
     private bool CheckModifiers(ref bool[] modifiers) {
-        return (modifiers[0] ? Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl) : true) &&
-               (modifiers[1] ? Input.GetKey(KeyCode.LeftAlt) || Input.GetKey(KeyCode.RightAlt) || Input.GetKey(KeyCode.AltGr) : true) &&
-               (modifiers[2] ? Input.GetKey(KeyCode.LeftWindows) || Input.GetKey(KeyCode.RightWindows) || Input.GetKey(KeyCode.LeftCommand) || Input.GetKey(KeyCode.RightCommand) || Input.GetKey(KeyCode.LeftApple) || Input.GetKey(KeyCode.RightApple) : true) &&
-               (modifiers[3] ? Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift) : true);
+        return (modifiers[0] == (Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl))) &&
+               (modifiers[1] == (Input.GetKey(KeyCode.LeftAlt) || Input.GetKey(KeyCode.RightAlt) || Input.GetKey(KeyCode.AltGr))) &&
+               (modifiers[2] == (Input.GetKey(KeyCode.LeftWindows) || Input.GetKey(KeyCode.RightWindows) || Input.GetKey(KeyCode.LeftCommand) || Input.GetKey(KeyCode.RightCommand) || Input.GetKey(KeyCode.LeftApple) || Input.GetKey(KeyCode.RightApple))) &&
+               (modifiers[3] == (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)));
     }
 
     private string GetModSettingsPath(bool directory) {
@@ -154,11 +174,15 @@ public class LogfileHotkeyService : MonoBehaviour {
   ""keyViewLogfile"": ""{0}"",
   ""keyClearLogfile"": ""{1}"",
   ""keyViewLastBombLogfile"": ""{2}"",
-  ""copyLogfileLinkWhenViewed"":  {3}
+  ""copyLogfileLinkWhenViewed"": {3},
+  ""keyCopyLogfile"": ""{4}"",
+  ""copyLogfileForJustLastBomb"": {5}
 }}", keySettings.keyViewLogfile != null ? keySettings.keyViewLogfile : "_F8",
 keySettings.keyClearLogfile != null ? keySettings.keyClearLogfile : "_F9",
 keySettings.keyViewLastBombLogfile != null ? keySettings.keyViewLastBombLogfile : "_F7",
-keySettings.copyLogfileLinkWhenViewed != null ? keySettings.copyLogfileLinkWhenViewed.ToString().ToLower() : "true"
+keySettings.copyLogfileLinkWhenViewed != null ? keySettings.copyLogfileLinkWhenViewed.ToString().ToLower() : "true",
+keySettings.keyCopyLogfile != null ? keySettings.keyCopyLogfile : "^_F8",
+keySettings.copyLogfileForJustLastBomb != null ? keySettings.copyLogfileForJustLastBomb.ToString().ToLower() : "true"
 );
             File.WriteAllText(GetModSettingsPath(false), settings);
             return true;

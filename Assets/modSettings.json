@@ -14,5 +14,7 @@
   "keyViewLogfile": "_F8",
   "keyClearLogfile": "_F9",
   "keyViewLastBombLogfile": "_F7",
-  "copyLogfileLinkWhenViewed":  true
+  "copyLogfileLinkWhenViewed": true,
+  "keyCopyLogfile": "^_F8",
+  "copyLogfileForJustLastBomb": true
 }

@@ -67,8 +67,9 @@ MonoBehaviour:
   m_Script: {fileID: -289456416, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Settings: '{  "keyViewLogfile": "_F8",   "keyClearLogfile": "_F9",   "keyViewLastBombLogfile":
-    "_F7",   "copyLogfileLinkWhenViewed":  true }'
+  Settings: '{"keyViewLogfile": "_F8", "keyClearLogfile": "_F9", "keyViewLastBombLogfile":
+    "_F7", "copyLogfileLinkWhenViewed": true, "keyCopyLogfile": "^_F8", "copyLogfileForJustLastBomb":
+    true}'
   SettingsPath: LogfileHotkey-settings.txt
 --- !u!114 &114487699295754178
 MonoBehaviour:
