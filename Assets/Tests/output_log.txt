@@ -1,0 +1,2427 @@
+Initialize engine version: 2017.1.0p4 (892c0f8d8f8a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   23.21.13.8871
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\I18N.dll (this message is harmless)
+Platform assembly: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\I18N.West.dll (this message is harmless)
+Platform assembly: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\Google.ProtocolBuffers.dll (this message is harmless)
+Loading D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\Google.ProtocolBuffers.dll into Unity Child Domain
+Platform assembly: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\I18N.dll (this message is harmless)
+Loading D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\I18N.dll into Unity Child Domain
+Platform assembly: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\I18N.West.dll (this message is harmless)
+Loading D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\I18N.West.dll into Unity Child Domain
+Platform assembly: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\KMFramework.dll (this message is harmless)
+Loading D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\KMFramework.dll into Unity Child Domain
+Platform assembly: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\PdfSharp.dll (this message is harmless)
+Loading D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\PdfSharp.dll into Unity Child Domain
+Platform assembly: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\log4net.dll (this message is harmless)
+Loading D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\log4net.dll into Unity Child Domain
+Platform assembly: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\Newtonsoft.Json.dll (this message is harmless)
+Loading D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\Newtonsoft.Json.dll into Unity Child Domain
+Platform assembly: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\System.dll (this message is harmless)
+Platform assembly: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.046 seconds
+Platform assembly: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\System.Xml.dll (this message is harmless)
+OnLevelWasLoaded was found on LeanTween
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 380)
+
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAEXTERNAL_TO_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_HmdNotFound: "Hmd Not Found (108)"!
+ 
+(Filename:  Line: 1396)
+
+Platform assembly: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\System.Configuration.dll (this message is harmless)
+UnloadTime: 1.131776 ms
+Initializing BuildInfoManager...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Bundle Version: 1.6.0 Manual Version: 1 Verification Code: 241
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Keep Talking and Nobody Explodes/ktane_Data/Mono/XInputInterface64
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Keep Talking and Nobody Explodes/ktane_Data/Mono/.\XInputInterface64
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Keep Talking and Nobody Explodes/ktane_Data/Mono/XInputInterface64
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Keep Talking and Nobody Explodes/ktane_Data/Mono/libXInputInterface64
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Keep Talking and Nobody Explodes/ktane_Data/Mono/.\libXInputInterface64
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Keep Talking and Nobody Explodes/ktane_Data/Mono/libXInputInterface64
+Failed to find a xinput dll, or no xinput controller is connected.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+InControl (version 1.6.15 build 9080)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Resolution requested: 1920x1080
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Configuring logging from embedded logConfig asset.
+[Logging] Logging successfully configured from embedded logConfig asset.
+
+[Logging] Logging start.
+
+[FileUtilityHelper] Attempting to load "C:/Users/Matthew/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\playerSettings.xml"...
+
+[FileUtilityHelper] Successfully loaded "C:/Users/Matthew/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\playerSettings.xml".
+
+[PlayerSettingsManager] PlayerSettings: InvertTiltControls: False, TouchpadInvert: False, RumbleEnabled: True, MusicVolume: 30, SFXVolume: 30, AntiAliasing: 8, VRModeRequested: True, SecondScreenMode: InteractiveManual, VSync: 1, AccessibilitySettings: Empty, Empty, Empty, DisabledControlTypes: None
+
+Initializing platform...
+[PlayerSettingsManager] Saving player settings.
+
+[FileUtilityHelper] Attempting to save "C:/Users/Matthew/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\playerSettings.xml"...
+
+[FileUtilityHelper] Successfully saved "C:/Users/Matthew/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\playerSettings.xml".
+
+[PCPlatformUtil] VRModeRequested: True
+
+[PCPlatformUtil] UnityEngine.VR.VRDevice.isPresent: False
+
+[PCPlatformUtil] No HMD detected. Falling back to non-VR mode.
+
+[PCPlatformUtil] Instantiating FixedCameraRig.
+
+[AbstractPlatformUtil] RenderScale: 0 Resolution: 0x0
+
+[KTInputManager] Requested setting control type to: Gaze
+
+[KTInputManager] Control type not supported. Not changing control type.
+
+[KTInputManager] InControl Platform: WINDOWS 10 ENTERPRISE 32BIT BUILD 17134
+
+[KTInputManager] InControl Devices: 0
+
+[KTInputManager] Active device: None () [Supported] [Platform: WINDOWS 10 ENTERPRISE 32BIT BUILD 17134]
+
+[KTInputManager] Active SecondScreen device: None () [Supported] [Platform: WINDOWS 10 ENTERPRISE 32BIT BUILD 17134]
+
+[KTInputManager] Requested setting control type to: Mouse
+
+[KTInputManager] Control type supported. Settting control type to: Mouse
+
+Configuring using external log config file: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\logConfig.xml.
+[Logging] Logging successfully configured from external file.
+
+[Steamworks.NET] SteamAPI_Init() failed. Refer to Valve's documentation or the comment above this line for more information.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[ServicesSteam] STEAM HAS FAILED TO INITIALIZE. All steam features will be disabled for this game session. This likely means that the game was launched with Steam not running.
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[SecondScreenInteractiveManual] Changing state from Loading to Loading
+
+[FileUtilityHelper] Attempting to load "C:/Users/Matthew/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\demoSettings.xml"...
+
+[FileUtilityHelper] Successfully loaded "C:/Users/Matthew/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\demoSettings.xml".
+
+[DemoManager] Demo settings: [Mode: Off], [DisableAlarmClockSound: False], [SkipVerificationFlow: False], [HideManualWebsiteReference: False], [ForgetLastGameSettings: False]
+
+[FileUtilityHelper] Attempting to load "C:/Users/Matthew/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\tournamentSettings.xml"...
+
+[FileUtilityHelper] Failed to load "C:/Users/Matthew/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\tournamentSettings.xml": Could not find file "C:\Users\Matthew\AppData\LocalLow\Steel Crate Games\Keep Talking and Nobody Explodes\tournamentSettings.xml".
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[TournamentManager] Failed to load tournament settings from user path, looking for tournamentSettings.xml next to executable.
+
+[FileUtilityHelper] Attempting to load "tournamentSettings.xml"...
+
+[FileUtilityHelper] Failed to load "tournamentSettings.xml": Could not find file "D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\tournamentSettings.xml".
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[TournamentManager] Failed to load tournament settings from executable path. Creating default tournament settings.
+
+[TournamentManager] Tournament settings: Name: Test Tournament
+Teams: 2
+Missions: firsttime,somethingoldsomethingnew,onestepup
+TieBreaker: firsttime
+Turn Order: Snake
+SeedStyle: GenerateSame 
+PacingEvents: ForceOneMinuteLeftOnly
+
+[FileUtilityHelper] Attempting to load "C:/Users/Matthew/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\modSettings.xml"...
+
+[FileUtilityHelper] Successfully loaded "C:/Users/Matthew/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\modSettings.xml".
+
+[ModSettingsManager] Assets.Scripts.Settings.ModSettings
+
+[SecondScreenManager] VRMode=false, disabling.
+
+[SecondScreenManager] SecondScreen mode changed from Disabled to Disabled
+
+[LoadingManager] Loading: modManagerScene
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[LoadingManager] Finished loading: 0.06 sec(s)
+
+No Playlist Controllers exist in the Scene. Music will not play.
+[LoadingManager] Received mouse input to continue, loading main scene.
+
+[KTInputManager] Requested setting control type to: Mouse
+
+[KTInputManager] Control type supported. Settting control type to: Mouse
+
+UnloadTime: 0.806789 ms
+[ProgressionManager] Loading progression data...
+
+[FileUtilityHelper] Attempting to load "C:/Users/Matthew/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\progression.xml"...
+
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Keep Talking and Nobody Explodes/ktane_Data/Mono/libc
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Keep Talking and Nobody Explodes/ktane_Data/Mono/.\libc
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Keep Talking and Nobody Explodes/ktane_Data/Mono/libc
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Keep Talking and Nobody Explodes/ktane_Data/Mono/libc
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Keep Talking and Nobody Explodes/ktane_Data/Mono/.\libc
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Keep Talking and Nobody Explodes/ktane_Data/Mono/libc
+[FileUtilityHelper] Successfully loaded "C:/Users/Matthew/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\progression.xml".
+
+[ProgressionManager] Progression summary:
+
+[ProgressionManager] Last Unlocked Bomb Classification: 1
+
+[ProgressionManager] MissionID: gameoverviewtutorial Beaten: True
+
+[ProgressionManager] MissionID: controlstutorial Beaten: True
+
+[ProgressionManager] MissionID: firsttime Beaten: True
+
+[ProgressionManager] MissionID: freeplay Beaten: True
+
+[ProgressionManager] MissionID: doubleyourmoney Beaten: True
+
+[ProgressionManager] MissionID: somethingoldsomethingnew Beaten: True
+
+[ProgressionManager] MissionID: onestepup Beaten: True
+
+[ProgressionManager] MissionID: pickupthepace Beaten: True
+
+[ProgressionManager] MissionID: ahiddenmessage Beaten: True
+
+[ProgressionManager] MissionID: somethingsdifferent Beaten: True
+
+[ProgressionManager] MissionID: giantleap Beaten: True
+
+[ProgressionManager] MissionID: asmallwrinkle Beaten: True
+
+[ProgressionManager] MissionID: payattention Beaten: True
+
+[ProgressionManager] MissionID: wireseverywhere Beaten: True
+
+[ProgressionManager] MissionID: fiendish Beaten: True
+
+[ProgressionManager] MissionID: rtfm Beaten: True
+
+[ProgressionManager] MissionID: juggler Beaten: True
+
+[ProgressionManager] MissionID: doubletrouble Beaten: True
+
+[ProgressionManager] MissionID: appliedtheory Beaten: True
+
+[ProgressionManager] MissionID: blinkenlights Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_mission 10 Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_mission 7 Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_mission 3 Beaten: True
+
+[ProgressionManager] MissionID: iamhardcore Beaten: True
+
+[ProgressionManager] MissionID: pickupthepacefour Beaten: True
+
+[ProgressionManager] MissionID: onewitheverything Beaten: True
+
+[ProgressionManager] MissionID: blinkenlightstwo Beaten: True
+
+System.TypeInitializationException: An exception was thrown by the type initializer for Mono.CSharp.CSharpCodeCompiler ---> System.IO.FileNotFoundException: Windows mono path not found: D:\SteamLibrary\steamapps\mono\mono\mini\mono.exe
+  at Mono.CSharp.CSharpCodeCompiler..cctor () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at Microsoft.CSharp.CSharpCodeProvider.CreateCompiler () [0x00000] in <filename unknown>:0 
+  at System.Xml.Serialization.XmlSerializer.GenerateSerializers (System.Xml.Serialization.GenerationBatch batch, System.CodeDom.Compiler.CompilerParameters cp) [0x00000] in <filename unknown>:0 
+  at System.Xml.Serialization.XmlSerializer.RunSerializerGeneration (System.Object obj) [0x00000] in <filename unknown>:0 System.TypeInitializationException: An exception was thrown by the type initializer for Mono.CSharp.CSharpCodeCompiler ---> System.IO.FileNotFoundException: Windows mono path not found: D:\SteamLibrary\steamapps\mono\mono\mini\mono.exe
+  at Mono.CSharp.CSharpCodeCompiler..cctor () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at Microsoft.CSharp.CSharpCodeProvider.CreateCompiler () [0x00000] in <filename unknown>:0 
+  at System.Xml.Serialization.XmlSerializer.GenerateSerializers (System.Xml.Serialization.GenerationBatch batch, System.CodeDom.Compiler.CompilerParameters cp) [0x00000] in <filename unknown>:0 
+  at System.Xml.Serialization.XmlSerializer.RunSerializerGeneration (System.Object obj) [0x00000] in <filename unknown>:0 
+
+[ProgressionManager] MissionID: fairgame Beaten: True
+
+[ProgressionManager] MissionID: pickupthepacetwo Beaten: True
+
+[ProgressionManager] MissionID: pickupthepacethree Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Battleship Beaten: True
+
+[ProgressionManager] MissionID: noroomforerror Beaten: True
+
+[ProgressionManager] MissionID: eightminutes Beaten: True
+
+[ProgressionManager] MissionID: theknob Beaten: True
+
+[ProgressionManager] MissionID: multitasker Beaten: True
+
+[ProgressionManager] MissionID: whosonfirst Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_V_Wires Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_V_Keypads Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_V_Complicated Wires Beaten: True
+
+[ProgressionManager] MissionID: rainbowtable Beaten: True
+
+[ProgressionManager] MissionID: amazing Beaten: True
+
+[ProgressionManager] MissionID: snipsnap Beaten: True
+
+[ProgressionManager] MissionID: mod_EdgeworkNeedyModule_mission Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Plumbing Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Resistors Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Web Design Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_N_Edgework Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_V_Button (The) Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_V_Simon Says Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_V_Who's on First Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_V_Passwords Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_V_Mazes Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_V_Morse Code Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Alphabet Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Logic Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Text Field Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Wire Placement Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Word Search Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Symblic Password Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Bulb (The) Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Bitwise Operators Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Anagrams and Scrambled Words Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Adventure Game Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_BitmapsV2 Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_English Test Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Boolean Venn Diagrams Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Hexamaze Beaten: True
+
+[ProgressionManager] MissionID: mod_PointOfOrderTester_Point Of Order Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Turn The Key Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Creation Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Double-Oh Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Colored Squares Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Color Math Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Adjacent Letters Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Coordinates Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Only Connect Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Orientation Cube Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Lettered Keys Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_LED Encryption Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Semaphore Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_X-Ray Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_3D Maze Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_V_Memory Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_V_Wire Sequences Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Astrology Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Binary LEDs Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Blind Alley Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Caesar Cipher Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Chess Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Clock (The) Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Color Flash Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Complicated Buttons Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Broken Buttons Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Cheap Checkout Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Combination Lock Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Connection Check Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Crazy Talk Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Cryptography Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Emoji Math Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Gamepad (The) Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Fast Math Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Forget Me Not Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Foreign Exchange Rates Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Symbolic Password Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_N_Answering Questions Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_N_Filibuster Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_N_Hex to Decimal Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_N_HTTP response Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_N_Lights Out Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_N_Math Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_N_Motion Sense Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_N_Vanilla Needy Modules Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_N_QR Code Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_N_Rotary Phones Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_N_Tetris Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_N_Who's That Monsplode Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_N_Needy Button Masher Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Switches Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Square Button Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Chord Qualities Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_CoordinatesV2 Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_FizzBuzz Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Friendship Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Follow The Leader Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Minesweeper Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Listening Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Microcontroller Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Light Cycle Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Laundry Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Ice CreamV2 Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_LogicV2 Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Modules Against Humanity Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Monsplode, Fight! Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Mouse In The Maze Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Mystic Square Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Number Pad Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Murder Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Neutralization Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Piano Keys Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Perspective Pegs Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Point of Order Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Silly Slots Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Zoo Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Turn The Keys Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Round Keypad Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Rock - Paper - Scissors - Lizard - Spock Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Shape Shift Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_ResistorsV2 Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Rhythms Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Yahtzee Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Simon Screams Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Simon States Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Skewed Slots Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Souvenir Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Screw (The) Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Two Bits Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Third Base Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Sea Shells Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Safety Safe Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Tic-Tac-Toe Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Morsematics Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Rubik's CubeV4 Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Probing Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_T_Button (The) Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_T_Venting Gas Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_T_Passwords Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_T_Morse Code Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_T_Who's on First Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_Vx4_Wires Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_Vx4_Button (The) Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_Mx4_Text Field Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Mastermind Simple Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's Module Training_M_Colored Switches Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_M_Visual Impairment Beaten: True
+
+[ProgressionManager] MissionID: custom Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_M_Symbol Cycle Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_M_Algebra Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_M_Jukebox (The) Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_M_Backgrounds Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_M_Identity Parade Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_M_Double-Oh Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_M_Timezones Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_M_Faulty Backgrounds Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_M_Radiator Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_M_Pie Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_M_Code (The) Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_M_Grid Matching Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_M_Moon (The) Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_M_Font Select Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_M_Hexamaze Beaten: True
+
+[ProgressionManager] MissionID: mod_memoryManagement_mission Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_M_Skyrim Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_188-Turtle Robot Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_1-Piano Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_2-CruelPiano Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_3-ColorFlash Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_4-Sema Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_5-Emoji Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_6-Switch Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_7-TwoBits Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_8-Scramble Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_9-Anagrams Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_10-Combo Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_11-SquareButton Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_12-States Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_13-Round Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_14-Morsematics Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_15-Listening Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_16-Foreign Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_17-Orientation Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_18-ConnectionCheck Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_19-Letter Keys Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_20-FMN Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_21-Astro Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_22-Logic Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_23-Crazy Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_24-Adventure Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_25-TTKS Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_26-TTK Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_27-Mystic Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_28-Plumbing Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_29-Safety Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_30-Crypto Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_31-Chess Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_32-Mouse Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_33-3D Maze Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_34-Silly Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_35-NumberPad Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_36-Probing Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_37-Resistors Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_38-Skewed Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_39-Caesar Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_40-Perspective Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_41-Microcontroller Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_42-Murder Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_43-Gamepad Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_44-TTT Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_45-Monsplode Fight Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_46-ShapeShift Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_47-FTL Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_48-Friendship Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_49-Bulb Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_50-Alphabet Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_51-Blind Alley Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_52-SeaShells Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_53-English Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_54-RPSLS Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_55-Hexamaze Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_56-Bitmaps Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_57-Colored Squares Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_58-Adjacent Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_59-ThirdBase Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_60-Souvenir Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_61-WordSearch Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_62-BrokenButtons Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_63-Screams Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_64-Laundry Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_65-MAH Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_66-Complicated Buttons Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_67-Battleship Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_68-TextField Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_69-SymbolicPassword Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_70-WirePlacement Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_71-Double-Oh Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_72-CheapCheckout Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_73-Coordinates Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_74-Light Cycle Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_75-Rhythms Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_76-ColorMath Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_77-Only Connect Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_78-Neutralization Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_79-Web Design Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_80-ChordQualities Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_81-Creation Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_82-Rubik's Cube Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_83-FizzBuzz Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_84-The Clock Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_85-LED Enc Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_86-Bitwise Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_87-Fast Math Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_88-Minesweeper Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_89-Zoo Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_90-Binary LEDs Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_91-BVD Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_92-Pointoforder Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_93-Ice Cream Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_94-TheScrew Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_95-Yahtzee Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_96-X-Ray Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_97-ColorMorse Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_98-Mastermind Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_99-Mastermind Cruel Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_100-Gridlock Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_101-Big Circle Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_102-Morse-A-Maze Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_103-Colored Switches Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_104-Perplexing Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_105-Monsplode Trading Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_106-GOL Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_107-GOLC Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_108-Nonogram Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_109-SET Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_110-Painting Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_111-Color Generator Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_112-Symbol Cycle Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_113-Hunting Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_114-Extendedpasswords Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_115-Curriculum Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_118-Festive Beaten: True
+
+[ProgressionManager] MissionID: mod_The200ModuleChallenge_117-Mafia Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_M_Superlogic Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_N_Rapid Buttons Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_M_Rhythms Beaten: True
+
+[ProgressionManager] MissionID: mod_Mr. Porcu's module training missions_M_LED Grid Beaten: True
+
+[ProgressionManager] Disarmed component: Wires
+
+[ProgressionManager] Disarmed component: Keypad
+
+[ProgressionManager] Disarmed component: BigButton
+
+[ProgressionManager] Disarmed component: WireSequence
+
+[ProgressionManager] Disarmed component: Maze
+
+[ProgressionManager] Disarmed component: Password
+
+[ProgressionManager] Disarmed component: WhosOnFirst
+
+[ProgressionManager] Disarmed component: Simon
+
+[ProgressionManager] Disarmed component: Venn
+
+[ProgressionManager] Disarmed component: Morse
+
+[ProgressionManager] Disarmed component: Memory
+
+[MissionManager] MissionManager initialized. 34 missions available.
+
+[RecordManager] Loading records from records.xml...
+
+[FileUtilityHelper] Attempting to load "C:/Users/Matthew/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\records.xml"...
+
+[FileUtilityHelper] Successfully loaded "C:/Users/Matthew/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\records.xml".
+
+[RecordManager] Loading best time records from best_times.xml...
+
+[FileUtilityHelper] Attempting to load "C:/Users/Matthew/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\best_times.xml"...
+
+System.TypeInitializationException: An exception was thrown by the type initializer for Mono.CSharp.CSharpCodeCompiler ---> System.IO.FileNotFoundException: Windows mono path not found: D:\SteamLibrary\steamapps\mono\mono\mini\mono.exe
+  at Mono.CSharp.CSharpCodeCompiler..cctor () [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at Microsoft.CSharp.CSharpCodeProvider.CreateCompiler () [0x00000] in <filename unknown>:0 
+  at System.Xml.Serialization.XmlSerializer.GenerateSerializers (System.Xml.Serialization.GenerationBatch batch, System.CodeDom.Compiler.CompilerParameters cp) [0x00000] in <filename unknown>:0 
+  at System.Xml.Serialization.XmlSerializer.RunSerializerGeneration (System.Object obj) [0x00000] in <filename unknown>:0 
+[FileUtilityHelper] Successfully loaded "C:/Users/Matthew/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\best_times.xml".
+
+[RecordManager] 100 recent records found:
+
+[RecordManager] Record: 1680 Mission: freeplay Result: ExplodedDueToStrikes Seed: 1510955674 Modules: 3 HasNeedy: False IsHardcore: False Solved: 0 TimeElapsed: 0  RealTimeElapsed: 4.326244 Strikes: 3
+
+[RecordManager] Record: 1679 Mission: firsttime Result: Defused Seed: 1788157210 Modules: 3 Solved: 3 TimeElapsed: 2.146454  RealTimeElapsed: 9.444633 Strikes: 2
+
+[RecordManager] Record: 1678 Mission: firsttime Result: ExplodedDueToStrikes Seed: 51414956 Modules: 3 Solved: 0 TimeElapsed: 17.18799  RealTimeElapsed: 24.46209 Strikes: 3
+
+[RecordManager] Record: 1677 Mission: freeplay Result: ExplodedDueToStrikes Seed: 966776743 Modules: 3 HasNeedy: False IsHardcore: False Solved: 0 TimeElapsed: 23.8269  RealTimeElapsed: 31.00978 Strikes: 3
+
+[RecordManager] Record: 1676 Mission: freeplay Result: ExplodedDueToStrikes Seed: 587173655 Modules: 3 HasNeedy: False IsHardcore: False Solved: 0 TimeElapsed: 2.859314  RealTimeElapsed: 9.950806 Strikes: 3
+
+[RecordManager] Record: 1675 Mission: freeplay Result: ExplodedDueToStrikes Seed: 790269317 Modules: 3 HasNeedy: False IsHardcore: False Solved: 1 TimeElapsed: 0  RealTimeElapsed: 7.203266 Strikes: 3
+
+[RecordManager] Record: 1674 Mission: freeplay Result: ExplodedDueToStrikes Seed: 1872452404 Modules: 3 HasNeedy: False IsHardcore: False Solved: 2 TimeElapsed: 24.32944  RealTimeElapsed: 26.21014 Strikes: 3
+
+[RecordManager] Record: 1673 Mission: freeplay Result: ExplodedDueToStrikes Seed: 571247110 Modules: 3 HasNeedy: False IsHardcore: False Solved: 1 TimeElapsed: 9.782928  RealTimeElapsed: 16.3482 Strikes: 3
+
+[RecordManager] Record: 1672 Mission: mod_Mr. Porcu's module training missions_M_LED Grid (invalid)
+
+[RecordManager] Record: 1671 Mission: mod_Mr. Porcu's module training missions_M_Rhythms (invalid)
+
+[RecordManager] Record: 1670 Mission: mod_Mr. Porcu's module training missions_M_Rhythms (invalid)
+
+[RecordManager] Record: 1669 Mission: mod_Mr. Porcu's module training missions_M_Rhythms (invalid)
+
+[RecordManager] Record: 1668 Mission: mod_Mr. Porcu's module training missions_M_Rhythms (invalid)
+
+[RecordManager] Record: 1667 Mission: mod_Mr. Porcu's module training missions_M_Rhythms (invalid)
+
+[RecordManager] Record: 1666 Mission: mod_Mr. Porcu's module training missions_M_Rhythms (invalid)
+
+[RecordManager] Record: 1665 Mission: mod_Mr. Porcu's module training missions_M_Rhythms (invalid)
+
+[RecordManager] Record: 1664 Mission: mod_Mr. Porcu's module training missions_M_London Underground (The) (invalid)
+
+[RecordManager] Record: 1663 Mission: mod_Mr. Porcu's module training missions_M_Faulty Backgrounds (invalid)
+
+[RecordManager] Record: 1662 Mission: mod_LeagueSeasonTwo_EFM billybao (invalid)
+
+[RecordManager] Record: 1661 Mission: mod_LeagueSeasonTwo_EFM billybao (invalid)
+
+[RecordManager] Record: 1660 Mission: mod_LeagueSeasonTwo_EFM billybao (invalid)
+
+[RecordManager] Record: 1659 Mission: mod_LeagueSeasonTwo_EFM billybao (invalid)
+
+[RecordManager] Record: 1658 Mission: mod_LeagueSeasonTwo_EFM billybao (invalid)
+
+[RecordManager] Record: 1657 Mission: mod_LeagueSeasonTwo_EFM ZekNikZ (invalid)
+
+[RecordManager] Record: 1656 Mission: mod_LeagueSeasonTwo_EFM ZekNikZ (invalid)
+
+[RecordManager] Record: 1655 Mission: mod_Mr. Porcu's module training missions_N_Rapid Buttons (invalid)
+
+[RecordManager] Record: 1654 Mission: mod_Mr. Porcu's module training missions_M_Fast Math (invalid)
+
+[RecordManager] Record: 1653 Mission: mod_Mr. Porcu's module training missions_M_Uncolored Squares (invalid)
+
+[RecordManager] Record: 1652 Mission: mod_Mr. Porcu's module training missions_M_Uncolored Squares (invalid)
+
+[RecordManager] Record: 1651 Mission: mod_Mr. Porcu's module training missions_M_Know Your Way (invalid)
+
+[RecordManager] Record: 1650 Mission: mod_LeagueSeasonTwo_EFM ZekNikZ (invalid)
+
+[RecordManager] Record: 1649 Mission: mod_LeagueSeasonTwo_EFM ZekNikZ (invalid)
+
+[RecordManager] Record: 1648 Mission: mod_LeagueSeasonTwo_EFM ZekNikZ (invalid)
+
+[RecordManager] Record: 1647 Mission: mod_LeagueSeasonTwo_EFM ZekNikZ (invalid)
+
+[RecordManager] Record: 1646 Mission: mod_Mr. Porcu's module training missions_M_Superlogic (invalid)
+
+[RecordManager] Record: 1645 Mission: mod_Mr. Porcu's module training missions_M_Superlogic (invalid)
+
+[RecordManager] Record: 1644 Mission: mod_Mr. Porcu's module training missions_M_Superlogic (invalid)
+
+[RecordManager] Record: 1643 Mission: mod_Mr. Porcu's module training missions_M_Superlogic (invalid)
+
+[RecordManager] Record: 1642 Mission: mod_Mr. Porcu's module training missions_M_Superlogic (invalid)
+
+[RecordManager] Record: 1641 Mission: firsttime Result: Defused Seed: 1635349016 Modules: 3 Solved: 3 TimeElapsed: 8.27475  RealTimeElapsed: 14.84567 Strikes: 1
+
+[RecordManager] Record: 1640 Mission: firsttime Result: ExplodedDueToStrikes Seed: 365875605 Modules: 3 Solved: 1 TimeElapsed: 8.410614  RealTimeElapsed: 15.82808 Strikes: 3
+
+[RecordManager] Record: 1639 Mission: firsttime Result: ExplodedDueToStrikes Seed: 463327951 Modules: 3 Solved: 0 TimeElapsed: 1.024231  RealTimeElapsed: 8.773407 Strikes: 3
+
+[RecordManager] Record: 1638 Mission: firsttime Result: ExplodedDueToStrikes Seed: 2029212575 Modules: 3 Solved: 1 TimeElapsed: 26.75644  RealTimeElapsed: 33.85728 Strikes: 3
+
+[RecordManager] Record: 1637 Mission: firsttime Result: ExplodedDueToStrikes Seed: 1805602226 Modules: 3 Solved: 1 TimeElapsed: 0  RealTimeElapsed: 3.505127 Strikes: 3
+
+[RecordManager] Record: 1636 Mission: firsttime Result: ExplodedDueToStrikes Seed: 521678596 Modules: 3 Solved: 0 TimeElapsed: 0  RealTimeElapsed: 4.540771 Strikes: 3
+
+[RecordManager] Record: 1635 Mission: firsttime Result: ExplodedDueToStrikes Seed: 2016615621 Modules: 3 Solved: 1 TimeElapsed: 0  RealTimeElapsed: 6.928223 Strikes: 3
+
+[RecordManager] Record: 1634 Mission: firsttime Result: ExplodedDueToStrikes Seed: 1318619411 Modules: 3 Solved: 0 TimeElapsed: 0  RealTimeElapsed: 3.613037 Strikes: 3
+
+[RecordManager] Record: 1633 Mission: firsttime Result: ExplodedDueToStrikes Seed: 1204177468 Modules: 3 Solved: 1 TimeElapsed: 0  RealTimeElapsed: 5.404785 Strikes: 3
+
+[RecordManager] Record: 1632 Mission: firsttime Result: Defused Seed: 1036537268 Modules: 3 Solved: 3 TimeElapsed: 8.476593  RealTimeElapsed: 13.7395 Strikes: 2
+
+[RecordManager] Record: 1631 Mission: firsttime Result: ExplodedDueToStrikes Seed: 1898753406 Modules: 3 Solved: 0 TimeElapsed: 0  RealTimeElapsed: 5.726807 Strikes: 3
+
+[RecordManager] Record: 1630 Mission: firsttime Result: ExplodedDueToStrikes Seed: 93863074 Modules: 3 Solved: 1 TimeElapsed: 0  RealTimeElapsed: 6.056152 Strikes: 3
+
+[RecordManager] Record: 1629 Mission: firsttime Result: Defused Seed: 497259628 Modules: 3 Solved: 3 TimeElapsed: 8.222046  RealTimeElapsed: 13.57373 Strikes: 2
+
+[RecordManager] Record: 1628 Mission: firsttime Result: Defused Seed: 18614309 Modules: 3 Solved: 3 TimeElapsed: 0.6980286  RealTimeElapsed: 8.560547 Strikes: 2
+
+[RecordManager] Record: 1627 Mission: firsttime Result: ExplodedDueToStrikes Seed: 281482082 Modules: 3 Solved: 0 TimeElapsed: 0  RealTimeElapsed: 4.151611 Strikes: 3
+
+[RecordManager] Record: 1626 Mission: firsttime Result: ExplodedDueToStrikes Seed: 1395832806 Modules: 3 Solved: 0 TimeElapsed: 0  RealTimeElapsed: 3.945801 Strikes: 3
+
+[RecordManager] Record: 1625 Mission: firsttime Result: ExplodedDueToStrikes Seed: 492495477 Modules: 3 Solved: 2 TimeElapsed: 0  RealTimeElapsed: 7.770752 Strikes: 3
+
+[RecordManager] Record: 1624 Mission: firsttime Result: Defused Seed: 1956896118 Modules: 3 Solved: 3 TimeElapsed: 15.02094  RealTimeElapsed: 20.11646 Strikes: 1
+
+[RecordManager] Record: 1623 Mission: firsttime Result: ExplodedDueToStrikes Seed: 2038554366 Modules: 3 Solved: 0 TimeElapsed: 0  RealTimeElapsed: 3.985107 Strikes: 3
+
+[RecordManager] Record: 1622 Mission: pickupthepacetwo Result: Defused Seed: 1429700237 Modules: 5 Solved: 5 TimeElapsed: 109.6866  RealTimeElapsed: 117.7971 Strikes: 0
+
+[RecordManager] Record: 1621 Mission: pickupthepacefour Result: ExplodedDueToStrikes Seed: 1438505411 Modules: 4 Solved: 3 TimeElapsed: 79.36661  RealTimeElapsed: 87.47778 Strikes: 1
+
+[RecordManager] Record: 1620 Mission: onewitheverything Result: ExplodedDueToStrikes Seed: 1237200622 Modules: 11 Solved: 0 TimeElapsed: 61.4064  RealTimeElapsed: 65.00269 Strikes: 3
+
+[RecordManager] Record: 1619 Mission: onewitheverything Result: ExplodedDueToStrikes Seed: 447753026 Modules: 11 Solved: 6 TimeElapsed: 316.4813  RealTimeElapsed: 270.5964 Strikes: 3
+
+[RecordManager] Record: 1618 Mission: onewitheverything Result: ExplodedDueToStrikes Seed: 2101880992 Modules: 11 Solved: 7 TimeElapsed: 348.2772  RealTimeElapsed: 274.6978 Strikes: 3
+
+[RecordManager] Record: 1617 Mission: onewitheverything Result: Incomplete Seed: 1670348438 Modules: 11 Solved: 0 TimeElapsed: 0  RealTimeElapsed: 0 Strikes: 1
+
+[RecordManager] Record: 1616 Mission: onewitheverything Result: ExplodedDueToStrikes Seed: 841828813 Modules: 11 Solved: 0 TimeElapsed: 104.1276  RealTimeElapsed: 110.6489 Strikes: 3
+
+[RecordManager] Record: 1615 Mission: pickupthepacethree Result: Defused Seed: 1962319491 Modules: 4 Solved: 4 TimeElapsed: 85.08554  RealTimeElapsed: 93.18542 Strikes: 0
+
+[RecordManager] Record: 1614 Mission: pickupthepacethree Result: ExplodedDueToStrikes Seed: 2111042081 Modules: 4 Solved: 1 TimeElapsed: 58.33459  RealTimeElapsed: 66.41565 Strikes: 1
+
+[RecordManager] Record: 1613 Mission: pickupthepacethree Result: ExplodedDueToTime Seed: 1483849783 Modules: 4 Solved: 3 TimeElapsed: 90.00327  RealTimeElapsed: 98.06458 Strikes: 0
+
+[RecordManager] Record: 1612 Mission: pickupthepacethree Result: ExplodedDueToStrikes Seed: 512720291 Modules: 4 Solved: 2 TimeElapsed: 72.83591  RealTimeElapsed: 80.91296 Strikes: 1
+
+[RecordManager] Record: 1611 Mission: pickupthepacethree Result: ExplodedDueToStrikes Seed: 2051030511 Modules: 4 Solved: 2 TimeElapsed: 58.30138  RealTimeElapsed: 66.38757 Strikes: 1
+
+[RecordManager] Record: 1610 Mission: pickupthepacethree Result: ExplodedDueToTime Seed: 1184221140 Modules: 4 Solved: 3 TimeElapsed: 90.003  RealTimeElapsed: 98.07922 Strikes: 0
+
+[RecordManager] Record: 1609 Mission: pickupthepacetwo Result: Defused Seed: 556885155 Modules: 5 Solved: 5 TimeElapsed: 130.3716  RealTimeElapsed: 138.4532 Strikes: 0
+
+[RecordManager] Record: 1608 Mission: somethingoldsomethingnew Result: Defused Seed: 909951514 Modules: 3 Solved: 3 TimeElapsed: 254.2244  RealTimeElapsed: 262.2956 Strikes: 0
+
+[RecordManager] Record: 1607 Mission: firsttime Result: Defused Seed: 1995878864 Modules: 3 Solved: 3 TimeElapsed: 217.7278  RealTimeElapsed: 225.7841 Strikes: 0
+
+[RecordManager] Record: 1606 Mission: firsttime Result: Incomplete Seed: 479039711 Modules: 3 Solved: 0 TimeElapsed: 0  RealTimeElapsed: 0 Strikes: 0
+
+[MissionManager] No mission with ID: custom found!
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[RecordManager] Record: 1605 Mission: custom (invalid)
+
+[RecordManager] Record: 1604 Mission: firsttime Result: ExplodedDueToStrikes Seed: 1414284534 Modules: 3 Solved: 0 TimeElapsed: 12.61389  RealTimeElapsed: 20.38638 Strikes: 3
+
+[MissionManager] No mission with ID: custom found!
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[RecordManager] Record: 1603 Mission: custom (invalid)
+
+[MissionManager] No mission with ID: custom found!
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[RecordManager] Record: 1602 Mission: custom (invalid)
+
+[RecordManager] Record: 1601 Mission: freeplay Result: ExplodedDueToStrikes Seed: 1678315047 Modules: 3 HasNeedy: False IsHardcore: False Solved: 0 TimeElapsed: 33.4061  RealTimeElapsed: 41.12762 Strikes: 3
+
+[MissionManager] No mission with ID: custom found!
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[RecordManager] Record: 1600 Mission: custom (invalid)
+
+[MissionManager] No mission with ID: custom found!
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[RecordManager] Record: 1599 Mission: custom (invalid)
+
+[MissionManager] No mission with ID: custom found!
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[RecordManager] Record: 1598 Mission: custom (invalid)
+
+[RecordManager] Record: 1597 Mission: firsttime Result: Defused Seed: 1542019992 Modules: 3 Solved: 3 TimeElapsed: 8.87085  RealTimeElapsed: 15.45811 Strikes: 1
+
+[RecordManager] Record: 1596 Mission: firsttime Result: ExplodedDueToStrikes Seed: 354959881 Modules: 3 Solved: 0 TimeElapsed: 0  RealTimeElapsed: 6.111805 Strikes: 3
+
+[RecordManager] Record: 1595 Mission: mod_Mr. Porcu's module training missions_M_Only Connect (invalid)
+
+[RecordManager] Record: 1594 Mission: mod_Mr. Porcu's module training missions_M_Only Connect (invalid)
+
+[RecordManager] Record: 1593 Mission: firsttime Result: ExplodedDueToStrikes Seed: 949443935 Modules: 3 Solved: 1 TimeElapsed: 287.6204  RealTimeElapsed: 293.6219 Strikes: 3
+
+[RecordManager] Record: 1592 Mission: mod_Mr. Porcu's module training missions_M_Coordinates (invalid)
+
+[RecordManager] Record: 1591 Mission: mod_The200ModuleChallenge_117-Mafia (invalid)
+
+[RecordManager] Record: 1590 Mission: mod_The200ModuleChallenge_118-Festive (invalid)
+
+[RecordManager] Record: 1589 Mission: mod_The200ModuleChallenge_115-Curriculum (invalid)
+
+[RecordManager] Record: 1588 Mission: mod_The200ModuleChallenge_115-Curriculum (invalid)
+
+[RecordManager] Record: 1587 Mission: mod_The200ModuleChallenge_114-Extendedpasswords (invalid)
+
+[RecordManager] Record: 1586 Mission: mod_The200ModuleChallenge_113-Hunting (invalid)
+
+[RecordManager] Record: 1585 Mission: mod_The200ModuleChallenge_113-Hunting (invalid)
+
+[RecordManager] Record: 1584 Mission: mod_The200ModuleChallenge_112-Symbol Cycle (invalid)
+
+[RecordManager] Record: 1583 Mission: mod_The200ModuleChallenge_111-Color Generator (invalid)
+
+[RecordManager] Record: 1582 Mission: mod_The200ModuleChallenge_110-Painting (invalid)
+
+[RecordManager] Record: 1581 Mission: mod_The200ModuleChallenge_109-SET (invalid)
+
+[RecordManager] Recent Record Summary: Success: 33 ExplodeDueToStrikes: 52 ExplodeDueToTime: 4
+
+[RecordManager] 312 Best Time records found:
+
+[RecordManager] Record: 382 Mission: firsttime Result: Defused Seed: 1351053768 Modules: 3 Solved: 3 TimeElapsed: 0  RealTimeElapsed: 6.133057 Strikes: 1
+
+[RecordManager] Record: 765 Mission: freeplay Result: Defused Seed: 1767034349 Modules: 4 HasNeedy: False IsHardcore: True Solved: 4 TimeElapsed: 170.5062  RealTimeElapsed: 178.5728 Strikes: 0
+
+[RecordManager] Record: 372 Mission: doubleyourmoney Result: Defused Seed: 654725428 Modules: 6 Solved: 6 TimeElapsed: 11.85843  RealTimeElapsed: 16.81104 Strikes: 2
+
+[RecordManager] Record: 310 Mission: somethingoldsomethingnew Result: Defused Seed: 1014426592 Modules: 3 Solved: 3 TimeElapsed: 35.7019  RealTimeElapsed: 43.72115 Strikes: 0
+
+[RecordManager] Record: 312 Mission: onestepup Result: Defused Seed: 1605521993 Modules: 4 Solved: 4 TimeElapsed: 62.68666  RealTimeElapsed: 70.72586 Strikes: 0
+
+[RecordManager] Record: 319 Mission: pickupthepace Result: Defused Seed: 806270019 Modules: 3 Solved: 3 TimeElapsed: 76.43758  RealTimeElapsed: 84.46906 Strikes: 0
+
+[RecordManager] Record: 324 Mission: ahiddenmessage Result: Defused Seed: 1927253752 Modules: 3 Solved: 3 TimeElapsed: 39.15146  RealTimeElapsed: 47.18909 Strikes: 0
+
+[RecordManager] Record: 105 Mission: somethingsdifferent Result: Defused Seed: 2028200357 Modules: 3 Solved: 3 TimeElapsed: 61.8907  RealTimeElapsed: 69.90112 Strikes: 0
+
+[RecordManager] Record: 106 Mission: giantleap Result: Defused Seed: 89329721 Modules: 4 Solved: 4 TimeElapsed: 215.2189  RealTimeElapsed: 212.8351 Strikes: 2
+
+[RecordManager] Record: 320 Mission: asmallwrinkle Result: Defused Seed: 949310947 Modules: 6 Solved: 5 TimeElapsed: 25.73447  RealTimeElapsed: 33.76587 Strikes: 0
+
+[RecordManager] Record: 110 Mission: payattention Result: Defused Seed: 1378599840 Modules: 5 Solved: 4 TimeElapsed: 140.6072  RealTimeElapsed: 148.6297 Strikes: 0
+
+[RecordManager] Record: 111 Mission: wireseverywhere Result: Defused Seed: 1176768218 Modules: 6 Solved: 6 TimeElapsed: 161.7097  RealTimeElapsed: 169.7523 Strikes: 0
+
+[RecordManager] Record: 112 Mission: fiendish Result: Defused Seed: 20648321 Modules: 6 Solved: 8 TimeElapsed: 198.9929  RealTimeElapsed: 194.5862 Strikes: 1
+
+[RecordManager] Record: 113 Mission: rtfm Result: Defused Seed: 1971765087 Modules: 8 Solved: 3 TimeElapsed: 125.5386  RealTimeElapsed: 133.5693 Strikes: 0
+
+[RecordManager] Record: 121 Mission: juggler Result: Defused Seed: 532855910 Modules: 8 Solved: 9 TimeElapsed: 280.1476  RealTimeElapsed: 288.1624 Strikes: 0
+
+[RecordManager] Record: 123 Mission: doubletrouble Result: Defused Seed: 243125621 Modules: 8 Solved: 14 TimeElapsed: 282.5309  RealTimeElapsed: 290.5533 Strikes: 0
+
+[RecordManager] Record: 1160 Mission: appliedtheory Result: Defused Seed: 737241925 Modules: 11 Solved: 11 TimeElapsed: 15.06763  RealTimeElapsed: 23.09106 Strikes: 0
+
+[RecordManager] Record: 134 Mission: blinkenlights Result: Defused Seed: 173861883 Modules: 5 Solved: 5 TimeElapsed: 71.67101  RealTimeElapsed: 79.71362 Strikes: 0
+
+[RecordManager] Record: 135 Mission: mod_Mr. Porcu's Module Training_mission 10 (invalid)
+
+[RecordManager] Record: 136 Mission: mod_Mr. Porcu's Module Training_mission 7 (invalid)
+
+[RecordManager] Record: 140 Mission: mod_Mr. Porcu's Module Training_mission 3 (invalid)
+
+[RecordManager] Record: 205 Mission: iamhardcore Result: Defused Seed: 830930242 Modules: 11 Solved: 10 TimeElapsed: 265.1977  RealTimeElapsed: 273.2249 Strikes: 0
+
+[RecordManager] Record: 183 Mission: pickupthepacefour Result: Defused Seed: 276245648 Modules: 4 Solved: 4 TimeElapsed: 71.95352  RealTimeElapsed: 79.98877 Strikes: 0
+
+[RecordManager] Record: 185 Mission: onewitheverything Result: Defused Seed: 1897637834 Modules: 11 Solved: 11 TimeElapsed: 232.6445  RealTimeElapsed: 240.6787 Strikes: 0
+
+[RecordManager] Record: 186 Mission: blinkenlightstwo Result: Defused Seed: 274922453 Modules: 6 Solved: 6 TimeElapsed: 119.0923  RealTimeElapsed: 127.1172 Strikes: 0
+
+[RecordManager] Record: 211 Mission: fairgame Result: Defused Seed: 1213608927 Modules: 5 Solved: 5 TimeElapsed: 149.5078  RealTimeElapsed: 157.5449 Strikes: 0
+
+[RecordManager] Record: 1622 Mission: pickupthepacetwo Result: Defused Seed: 1429700237 Modules: 5 Solved: 5 TimeElapsed: 109.6866  RealTimeElapsed: 117.7971 Strikes: 0
+
+[RecordManager] Record: 213 Mission: pickupthepacethree Result: Defused Seed: 1228462976 Modules: 4 Solved: 4 TimeElapsed: 50.66891  RealTimeElapsed: 58.68604 Strikes: 0
+
+[RecordManager] Record: 231 Mission: mod_Mr. Porcu's Module Training_M_Battleship (invalid)
+
+[RecordManager] Record: 259 Mission: noroomforerror Result: Defused Seed: 222399409 Modules: 5 Solved: 5 TimeElapsed: 129.8226  RealTimeElapsed: 137.8564 Strikes: 0
+
+[RecordManager] Record: 260 Mission: eightminutes Result: Defused Seed: 853011979 Modules: 8 Solved: 8 TimeElapsed: 232.6911  RealTimeElapsed: 215.0193 Strikes: 1
+
+[RecordManager] Record: 261 Mission: theknob Result: Defused Seed: 1195424990 Modules: 6 Solved: 6 TimeElapsed: 68.23715  RealTimeElapsed: 76.27515 Strikes: 0
+
+[RecordManager] Record: 271 Mission: multitasker Result: Defused Seed: 1365050504 Modules: 6 Solved: 3 TimeElapsed: 97.4882  RealTimeElapsed: 105.5298 Strikes: 0
+
+[RecordManager] Record: 274 Mission: whosonfirst Result: Defused Seed: 1827726114 Modules: 4 Solved: 4 TimeElapsed: 108.3058  RealTimeElapsed: 116.3438 Strikes: 0
+
+[RecordManager] Record: 615 Mission: mod_Mr. Porcu's Module Training_V_Wires (invalid)
+
+[RecordManager] Record: 536 Mission: mod_Mr. Porcu's Module Training_V_Keypads (invalid)
+
+[RecordManager] Record: 417 Mission: mod_Mr. Porcu's Module Training_V_Complicated Wires (invalid)
+
+[RecordManager] Record: 460 Mission: rainbowtable Result: Defused Seed: 140880792 Modules: 9 Solved: 9 TimeElapsed: 192.4935  RealTimeElapsed: 200.5071 Strikes: 0
+
+[RecordManager] Record: 465 Mission: amazing Result: Defused Seed: 1219547835 Modules: 8 Solved: 8 TimeElapsed: 113.5226  RealTimeElapsed: 121.5636 Strikes: 0
+
+[RecordManager] Record: 468 Mission: snipsnap Result: Defused Seed: 1875747641 Modules: 6 Solved: 6 TimeElapsed: 156.1918  RealTimeElapsed: 164.2117 Strikes: 0
+
+[RecordManager] Record: 485 Mission: mod_EdgeworkNeedyModule_mission (invalid)
+
+[RecordManager] Record: 496 Mission: mod_Mr. Porcu's Module Training_M_Plumbing (invalid)
+
+[RecordManager] Record: 499 Mission: mod_Mr. Porcu's Module Training_M_Resistors (invalid)
+
+[RecordManager] Record: 522 Mission: mod_Mr. Porcu's Module Training_M_Web Design (invalid)
+
+[RecordManager] Record: 872 Mission: mod_Mr. Porcu's Module Training_N_Edgework (invalid)
+
+[RecordManager] Record: 611 Mission: mod_Mr. Porcu's Module Training_V_Button (The) (invalid)
+
+[RecordManager] Record: 552 Mission: mod_Mr. Porcu's Module Training_V_Simon Says (invalid)
+
+[RecordManager] Record: 553 Mission: mod_Mr. Porcu's Module Training_V_Who's on First (invalid)
+
+[RecordManager] Record: 555 Mission: mod_Mr. Porcu's Module Training_V_Passwords (invalid)
+
+[RecordManager] Record: 556 Mission: mod_Mr. Porcu's Module Training_V_Mazes (invalid)
+
+[RecordManager] Record: 558 Mission: mod_Mr. Porcu's Module Training_V_Morse Code (invalid)
+
+[RecordManager] Record: 1122 Mission: mod_Mr. Porcu's Module Training_M_Alphabet (invalid)
+
+[RecordManager] Record: 574 Mission: mod_Mr. Porcu's Module Training_M_Logic (invalid)
+
+[RecordManager] Record: 584 Mission: mod_Mr. Porcu's Module Training_M_Text Field (invalid)
+
+[RecordManager] Record: 1049 Mission: mod_Mr. Porcu's Module Training_M_Wire Placement (invalid)
+
+[RecordManager] Record: 591 Mission: mod_Mr. Porcu's Module Training_M_Word Search (invalid)
+
+[RecordManager] Record: 592 Mission: mod_Mr. Porcu's Module Training_M_Symblic Password (invalid)
+
+[RecordManager] Record: 594 Mission: mod_Mr. Porcu's Module Training_M_Bulb (The) (invalid)
+
+[RecordManager] Record: 595 Mission: mod_Mr. Porcu's Module Training_M_Bitwise Operators (invalid)
+
+[RecordManager] Record: 1068 Mission: mod_Mr. Porcu's Module Training_M_Anagrams and Scrambled Words (invalid)
+
+[RecordManager] Record: 620 Mission: mod_Mr. Porcu's Module Training_M_Adventure Game (invalid)
+
+[RecordManager] Record: 1055 Mission: mod_Mr. Porcu's Module Training_M_BitmapsV2 (invalid)
+
+[RecordManager] Record: 624 Mission: mod_Mr. Porcu's Module Training_M_English Test (invalid)
+
+[RecordManager] Record: 1107 Mission: mod_Mr. Porcu's Module Training_M_Boolean Venn Diagrams (invalid)
+
+[RecordManager] Record: 666 Mission: mod_Mr. Porcu's Module Training_M_Hexamaze (invalid)
+
+[RecordManager] Record: 722 Mission: mod_PointOfOrderTester_Point Of Order (invalid)
+
+[RecordManager] Record: 726 Mission: mod_Mr. Porcu's Module Training_M_Turn The Key (invalid)
+
+[RecordManager] Record: 729 Mission: mod_Mr. Porcu's Module Training_M_Creation (invalid)
+
+[RecordManager] Record: 745 Mission: mod_Mr. Porcu's Module Training_M_Double-Oh (invalid)
+
+[RecordManager] Record: 767 Mission: mod_Mr. Porcu's Module Training_M_Colored Squares (invalid)
+
+[RecordManager] Record: 768 Mission: mod_Mr. Porcu's Module Training_M_Color Math (invalid)
+
+[RecordManager] Record: 1117 Mission: mod_Mr. Porcu's Module Training_M_Adjacent Letters (invalid)
+
+[RecordManager] Record: 771 Mission: mod_Mr. Porcu's Module Training_M_Coordinates (invalid)
+
+[RecordManager] Record: 772 Mission: mod_Mr. Porcu's Module Training_M_Only Connect (invalid)
+
+[RecordManager] Record: 773 Mission: mod_Mr. Porcu's Module Training_M_Orientation Cube (invalid)
+
+[RecordManager] Record: 774 Mission: mod_Mr. Porcu's Module Training_M_Lettered Keys (invalid)
+
+[RecordManager] Record: 775 Mission: mod_Mr. Porcu's Module Training_M_LED Encryption (invalid)
+
+[RecordManager] Record: 779 Mission: mod_Mr. Porcu's Module Training_M_Semaphore (invalid)
+
+[RecordManager] Record: 820 Mission: mod_Mr. Porcu's Module Training_M_X-Ray (invalid)
+
+[RecordManager] Record: 827 Mission: mod_Mr. Porcu's Module Training_M_3D Maze (invalid)
+
+[RecordManager] Record: 829 Mission: mod_Mr. Porcu's Module Training_V_Memory (invalid)
+
+[RecordManager] Record: 830 Mission: mod_Mr. Porcu's Module Training_V_Wire Sequences (invalid)
+
+[RecordManager] Record: 831 Mission: mod_Mr. Porcu's Module Training_M_Astrology (invalid)
+
+[RecordManager] Record: 832 Mission: mod_Mr. Porcu's Module Training_M_Binary LEDs (invalid)
+
+[RecordManager] Record: 833 Mission: mod_Mr. Porcu's Module Training_M_Blind Alley (invalid)
+
+[RecordManager] Record: 834 Mission: mod_Mr. Porcu's Module Training_M_Caesar Cipher (invalid)
+
+[RecordManager] Record: 835 Mission: mod_Mr. Porcu's Module Training_M_Chess (invalid)
+
+[RecordManager] Record: 839 Mission: mod_Mr. Porcu's Module Training_M_Clock (The) (invalid)
+
+[RecordManager] Record: 841 Mission: mod_Mr. Porcu's Module Training_M_Color Flash (invalid)
+
+[RecordManager] Record: 842 Mission: mod_Mr. Porcu's Module Training_M_Complicated Buttons (invalid)
+
+[RecordManager] Record: 843 Mission: mod_Mr. Porcu's Module Training_M_Broken Buttons (invalid)
+
+[RecordManager] Record: 844 Mission: mod_Mr. Porcu's Module Training_M_Cheap Checkout (invalid)
+
+[RecordManager] Record: 847 Mission: mod_Mr. Porcu's Module Training_M_Combination Lock (invalid)
+
+[RecordManager] Record: 1060 Mission: mod_Mr. Porcu's Module Training_M_Connection Check (invalid)
+
+[RecordManager] Record: 849 Mission: mod_Mr. Porcu's Module Training_M_Crazy Talk (invalid)
+
+[RecordManager] Record: 850 Mission: mod_Mr. Porcu's Module Training_M_Cryptography (invalid)
+
+[RecordManager] Record: 852 Mission: mod_Mr. Porcu's Module Training_M_Emoji Math (invalid)
+
+[RecordManager] Record: 854 Mission: mod_Mr. Porcu's Module Training_M_Gamepad (The) (invalid)
+
+[RecordManager] Record: 855 Mission: mod_Mr. Porcu's Module Training_M_Fast Math (invalid)
+
+[RecordManager] Record: 856 Mission: mod_Mr. Porcu's Module Training_M_Forget Me Not (invalid)
+
+[RecordManager] Record: 857 Mission: mod_Mr. Porcu's Module Training_M_Foreign Exchange Rates (invalid)
+
+[RecordManager] Record: 862 Mission: mod_Mr. Porcu's Module Training_M_Symbolic Password (invalid)
+
+[RecordManager] Record: 871 Mission: mod_Mr. Porcu's Module Training_N_Answering Questions (invalid)
+
+[RecordManager] Record: 873 Mission: mod_Mr. Porcu's Module Training_N_Filibuster (invalid)
+
+[RecordManager] Record: 874 Mission: mod_Mr. Porcu's Module Training_N_Hex to Decimal (invalid)
+
+[RecordManager] Record: 875 Mission: mod_Mr. Porcu's Module Training_N_HTTP response (invalid)
+
+[RecordManager] Record: 876 Mission: mod_Mr. Porcu's Module Training_N_Lights Out (invalid)
+
+[RecordManager] Record: 878 Mission: mod_Mr. Porcu's Module Training_N_Math (invalid)
+
+[RecordManager] Record: 879 Mission: mod_Mr. Porcu's Module Training_N_Motion Sense (invalid)
+
+[RecordManager] Record: 881 Mission: mod_Mr. Porcu's Module Training_N_Vanilla Needy Modules (invalid)
+
+[RecordManager] Record: 882 Mission: mod_Mr. Porcu's Module Training_N_QR Code (invalid)
+
+[RecordManager] Record: 883 Mission: mod_Mr. Porcu's Module Training_N_Rotary Phones (invalid)
+
+[RecordManager] Record: 884 Mission: mod_Mr. Porcu's Module Training_N_Tetris (invalid)
+
+[RecordManager] Record: 885 Mission: mod_Mr. Porcu's Module Training_N_Who's That Monsplode (invalid)
+
+[RecordManager] Record: 887 Mission: mod_Mr. Porcu's Module Training_N_Needy Button Masher (invalid)
+
+[RecordManager] Record: 890 Mission: mod_Mr. Porcu's Module Training_M_Switches (invalid)
+
+[RecordManager] Record: 891 Mission: mod_Mr. Porcu's Module Training_M_Square Button (invalid)
+
+[RecordManager] Record: 899 Mission: mod_Mr. Porcu's Module Training_M_Chord Qualities (invalid)
+
+[RecordManager] Record: 900 Mission: mod_Mr. Porcu's Module Training_M_CoordinatesV2 (invalid)
+
+[RecordManager] Record: 901 Mission: mod_Mr. Porcu's Module Training_M_FizzBuzz (invalid)
+
+[RecordManager] Record: 904 Mission: mod_Mr. Porcu's Module Training_M_Friendship (invalid)
+
+[RecordManager] Record: 911 Mission: mod_Mr. Porcu's Module Training_M_Follow The Leader (invalid)
+
+[RecordManager] Record: 912 Mission: mod_Mr. Porcu's Module Training_M_Minesweeper (invalid)
+
+[RecordManager] Record: 913 Mission: mod_Mr. Porcu's Module Training_M_Listening (invalid)
+
+[RecordManager] Record: 916 Mission: mod_Mr. Porcu's Module Training_M_Microcontroller (invalid)
+
+[RecordManager] Record: 917 Mission: mod_Mr. Porcu's Module Training_M_Light Cycle (invalid)
+
+[RecordManager] Record: 919 Mission: mod_Mr. Porcu's Module Training_M_Laundry (invalid)
+
+[RecordManager] Record: 920 Mission: mod_Mr. Porcu's Module Training_M_Ice CreamV2 (invalid)
+
+[RecordManager] Record: 921 Mission: mod_Mr. Porcu's Module Training_M_LogicV2 (invalid)
+
+[RecordManager] Record: 924 Mission: mod_Mr. Porcu's Module Training_M_Modules Against Humanity (invalid)
+
+[RecordManager] Record: 1038 Mission: mod_Mr. Porcu's Module Training_M_Monsplode, Fight! (invalid)
+
+[RecordManager] Record: 927 Mission: mod_Mr. Porcu's Module Training_M_Mouse In The Maze (invalid)
+
+[RecordManager] Record: 928 Mission: mod_Mr. Porcu's Module Training_M_Mystic Square (invalid)
+
+[RecordManager] Record: 933 Mission: mod_Mr. Porcu's Module Training_M_Number Pad (invalid)
+
+[RecordManager] Record: 934 Mission: mod_Mr. Porcu's Module Training_M_Murder (invalid)
+
+[RecordManager] Record: 935 Mission: mod_Mr. Porcu's Module Training_M_Neutralization (invalid)
+
+[RecordManager] Record: 937 Mission: mod_Mr. Porcu's Module Training_M_Piano Keys (invalid)
+
+[RecordManager] Record: 938 Mission: mod_Mr. Porcu's Module Training_M_Perspective Pegs (invalid)
+
+[RecordManager] Record: 939 Mission: mod_Mr. Porcu's Module Training_M_Point of Order (invalid)
+
+[RecordManager] Record: 940 Mission: mod_Mr. Porcu's Module Training_M_Silly Slots (invalid)
+
+[RecordManager] Record: 941 Mission: mod_Mr. Porcu's Module Training_M_Zoo (invalid)
+
+[RecordManager] Record: 947 Mission: mod_Mr. Porcu's Module Training_M_Turn The Keys (invalid)
+
+[RecordManager] Record: 948 Mission: mod_Mr. Porcu's Module Training_M_Round Keypad (invalid)
+
+[RecordManager] Record: 949 Mission: mod_Mr. Porcu's Module Training_M_Rock - Paper - Scissors - Lizard - Spock (invalid)
+
+[RecordManager] Record: 950 Mission: mod_Mr. Porcu's Module Training_M_Shape Shift (invalid)
+
+[RecordManager] Record: 953 Mission: mod_Mr. Porcu's Module Training_M_ResistorsV2 (invalid)
+
+[RecordManager] Record: 955 Mission: mod_Mr. Porcu's Module Training_M_Rhythms (invalid)
+
+[RecordManager] Record: 959 Mission: mod_Mr. Porcu's Module Training_M_Yahtzee (invalid)
+
+[RecordManager] Record: 969 Mission: mod_Mr. Porcu's Module Training_M_Simon Screams (invalid)
+
+[RecordManager] Record: 970 Mission: mod_Mr. Porcu's Module Training_M_Simon States (invalid)
+
+[RecordManager] Record: 971 Mission: mod_Mr. Porcu's Module Training_M_Skewed Slots (invalid)
+
+[RecordManager] Record: 972 Mission: mod_Mr. Porcu's Module Training_M_Souvenir (invalid)
+
+[RecordManager] Record: 974 Mission: mod_Mr. Porcu's Module Training_M_Screw (The) (invalid)
+
+[RecordManager] Record: 975 Mission: mod_Mr. Porcu's Module Training_M_Two Bits (invalid)
+
+[RecordManager] Record: 977 Mission: mod_Mr. Porcu's Module Training_M_Third Base (invalid)
+
+[RecordManager] Record: 978 Mission: mod_Mr. Porcu's Module Training_M_Sea Shells (invalid)
+
+[RecordManager] Record: 979 Mission: mod_Mr. Porcu's Module Training_M_Safety Safe (invalid)
+
+[RecordManager] Record: 986 Mission: mod_Mr. Porcu's Module Training_M_Tic-Tac-Toe (invalid)
+
+[RecordManager] Record: 989 Mission: mod_Mr. Porcu's Module Training_M_Morsematics (invalid)
+
+[RecordManager] Record: 990 Mission: mod_Mr. Porcu's Module Training_M_Rubik's CubeV4 (invalid)
+
+[RecordManager] Record: 992 Mission: mod_Mr. Porcu's Module Training_M_Probing (invalid)
+
+[RecordManager] Record: 993 Mission: mod_Mr. Porcu's Module Training_T_Button (The) (invalid)
+
+[RecordManager] Record: 995 Mission: mod_Mr. Porcu's Module Training_T_Venting Gas (invalid)
+
+[RecordManager] Record: 996 Mission: mod_Mr. Porcu's Module Training_T_Passwords (invalid)
+
+[RecordManager] Record: 997 Mission: mod_Mr. Porcu's Module Training_T_Morse Code (invalid)
+
+[RecordManager] Record: 998 Mission: mod_Mr. Porcu's Module Training_T_Who's on First (invalid)
+
+[RecordManager] Record: 999 Mission: mod_Mr. Porcu's Module Training_Vx4_Wires (invalid)
+
+[RecordManager] Record: 1000 Mission: mod_Mr. Porcu's Module Training_Vx4_Button (The) (invalid)
+
+[RecordManager] Record: 1002 Mission: mod_Mr. Porcu's Module Training_Mx4_Text Field (invalid)
+
+[RecordManager] Record: 1081 Mission: mod_Mr. Porcu's Module Training_M_Mastermind Simple (invalid)
+
+[RecordManager] Record: 1182 Mission: mod_Mr. Porcu's Module Training_M_Colored Switches (invalid)
+
+[RecordManager] Record: 1217 Mission: mod_Mr. Porcu's module training missions_M_Visual Impairment (invalid)
+
+[MissionManager] No mission with ID: custom found!
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[RecordManager] Record: 1252 Mission: custom (invalid)
+
+[RecordManager] Record: 1225 Mission: mod_Mr. Porcu's module training missions_M_Symbol Cycle (invalid)
+
+[RecordManager] Record: 1226 Mission: mod_Mr. Porcu's module training missions_M_Algebra (invalid)
+
+[RecordManager] Record: 1233 Mission: mod_Mr. Porcu's module training missions_M_Jukebox (The) (invalid)
+
+[RecordManager] Record: 1339 Mission: mod_Mr. Porcu's module training missions_M_Backgrounds (invalid)
+
+[RecordManager] Record: 1313 Mission: mod_Mr. Porcu's module training missions_M_Identity Parade (invalid)
+
+[RecordManager] Record: 1314 Mission: mod_Mr. Porcu's module training missions_M_Double-Oh (invalid)
+
+[RecordManager] Record: 1316 Mission: mod_Mr. Porcu's module training missions_M_Timezones (invalid)
+
+[RecordManager] Record: 1340 Mission: mod_Mr. Porcu's module training missions_M_Faulty Backgrounds (invalid)
+
+[RecordManager] Record: 1341 Mission: mod_Mr. Porcu's module training missions_M_Radiator (invalid)
+
+[RecordManager] Record: 1344 Mission: mod_Mr. Porcu's module training missions_M_Pie (invalid)
+
+[RecordManager] Record: 1345 Mission: mod_Mr. Porcu's module training missions_M_Code (The) (invalid)
+
+[RecordManager] Record: 1351 Mission: mod_Mr. Porcu's module training missions_M_Grid Matching (invalid)
+
+[RecordManager] Record: 1358 Mission: mod_Mr. Porcu's module training missions_M_Moon (The) (invalid)
+
+[RecordManager] Record: 1361 Mission: mod_Mr. Porcu's module training missions_M_Font Select (invalid)
+
+[RecordManager] Record: 1363 Mission: mod_Mr. Porcu's module training missions_M_Hexamaze (invalid)
+
+[RecordManager] Record: 1370 Mission: mod_memoryManagement_mission (invalid)
+
+[RecordManager] Record: 1427 Mission: mod_Mr. Porcu's module training missions_M_Skyrim (invalid)
+
+[RecordManager] Record: 1428 Mission: mod_The200ModuleChallenge_188-Turtle Robot (invalid)
+
+[RecordManager] Record: 1430 Mission: mod_The200ModuleChallenge_1-Piano (invalid)
+
+[RecordManager] Record: 1432 Mission: mod_The200ModuleChallenge_2-CruelPiano (invalid)
+
+[RecordManager] Record: 1434 Mission: mod_The200ModuleChallenge_3-ColorFlash (invalid)
+
+[RecordManager] Record: 1435 Mission: mod_The200ModuleChallenge_4-Sema (invalid)
+
+[RecordManager] Record: 1436 Mission: mod_The200ModuleChallenge_5-Emoji (invalid)
+
+[RecordManager] Record: 1437 Mission: mod_The200ModuleChallenge_6-Switch (invalid)
+
+[RecordManager] Record: 1438 Mission: mod_The200ModuleChallenge_7-TwoBits (invalid)
+
+[RecordManager] Record: 1439 Mission: mod_The200ModuleChallenge_8-Scramble (invalid)
+
+[RecordManager] Record: 1440 Mission: mod_The200ModuleChallenge_9-Anagrams (invalid)
+
+[RecordManager] Record: 1441 Mission: mod_The200ModuleChallenge_10-Combo (invalid)
+
+[RecordManager] Record: 1444 Mission: mod_The200ModuleChallenge_11-SquareButton (invalid)
+
+[RecordManager] Record: 1445 Mission: mod_The200ModuleChallenge_12-States (invalid)
+
+[RecordManager] Record: 1447 Mission: mod_The200ModuleChallenge_13-Round (invalid)
+
+[RecordManager] Record: 1455 Mission: mod_The200ModuleChallenge_14-Morsematics (invalid)
+
+[RecordManager] Record: 1456 Mission: mod_The200ModuleChallenge_15-Listening (invalid)
+
+[RecordManager] Record: 1457 Mission: mod_The200ModuleChallenge_16-Foreign (invalid)
+
+[RecordManager] Record: 1458 Mission: mod_The200ModuleChallenge_17-Orientation (invalid)
+
+[RecordManager] Record: 1459 Mission: mod_The200ModuleChallenge_18-ConnectionCheck (invalid)
+
+[RecordManager] Record: 1460 Mission: mod_The200ModuleChallenge_19-Letter Keys (invalid)
+
+[RecordManager] Record: 1461 Mission: mod_The200ModuleChallenge_20-FMN (invalid)
+
+[RecordManager] Record: 1462 Mission: mod_The200ModuleChallenge_21-Astro (invalid)
+
+[RecordManager] Record: 1464 Mission: mod_The200ModuleChallenge_22-Logic (invalid)
+
+[RecordManager] Record: 1466 Mission: mod_The200ModuleChallenge_23-Crazy (invalid)
+
+[RecordManager] Record: 1467 Mission: mod_The200ModuleChallenge_24-Adventure (invalid)
+
+[RecordManager] Record: 1468 Mission: mod_The200ModuleChallenge_25-TTKS (invalid)
+
+[RecordManager] Record: 1469 Mission: mod_The200ModuleChallenge_26-TTK (invalid)
+
+[RecordManager] Record: 1470 Mission: mod_The200ModuleChallenge_27-Mystic (invalid)
+
+[RecordManager] Record: 1471 Mission: mod_The200ModuleChallenge_28-Plumbing (invalid)
+
+[RecordManager] Record: 1472 Mission: mod_The200ModuleChallenge_29-Safety (invalid)
+
+[RecordManager] Record: 1473 Mission: mod_The200ModuleChallenge_30-Crypto (invalid)
+
+[RecordManager] Record: 1474 Mission: mod_The200ModuleChallenge_31-Chess (invalid)
+
+[RecordManager] Record: 1475 Mission: mod_The200ModuleChallenge_32-Mouse (invalid)
+
+[RecordManager] Record: 1477 Mission: mod_The200ModuleChallenge_33-3D Maze (invalid)
+
+[RecordManager] Record: 1478 Mission: mod_The200ModuleChallenge_34-Silly (invalid)
+
+[RecordManager] Record: 1480 Mission: mod_The200ModuleChallenge_35-NumberPad (invalid)
+
+[RecordManager] Record: 1481 Mission: mod_The200ModuleChallenge_36-Probing (invalid)
+
+[RecordManager] Record: 1482 Mission: mod_The200ModuleChallenge_37-Resistors (invalid)
+
+[RecordManager] Record: 1484 Mission: mod_The200ModuleChallenge_38-Skewed (invalid)
+
+[RecordManager] Record: 1485 Mission: mod_The200ModuleChallenge_39-Caesar (invalid)
+
+[RecordManager] Record: 1488 Mission: mod_The200ModuleChallenge_40-Perspective (invalid)
+
+[RecordManager] Record: 1489 Mission: mod_The200ModuleChallenge_41-Microcontroller (invalid)
+
+[RecordManager] Record: 1490 Mission: mod_The200ModuleChallenge_42-Murder (invalid)
+
+[RecordManager] Record: 1491 Mission: mod_The200ModuleChallenge_43-Gamepad (invalid)
+
+[RecordManager] Record: 1492 Mission: mod_The200ModuleChallenge_44-TTT (invalid)
+
+[RecordManager] Record: 1493 Mission: mod_The200ModuleChallenge_45-Monsplode Fight (invalid)
+
+[RecordManager] Record: 1494 Mission: mod_The200ModuleChallenge_46-ShapeShift (invalid)
+
+[RecordManager] Record: 1495 Mission: mod_The200ModuleChallenge_47-FTL (invalid)
+
+[RecordManager] Record: 1496 Mission: mod_The200ModuleChallenge_48-Friendship (invalid)
+
+[RecordManager] Record: 1498 Mission: mod_The200ModuleChallenge_49-Bulb (invalid)
+
+[RecordManager] Record: 1499 Mission: mod_The200ModuleChallenge_50-Alphabet (invalid)
+
+[RecordManager] Record: 1500 Mission: mod_The200ModuleChallenge_51-Blind Alley (invalid)
+
+[RecordManager] Record: 1501 Mission: mod_The200ModuleChallenge_52-SeaShells (invalid)
+
+[RecordManager] Record: 1502 Mission: mod_The200ModuleChallenge_53-English (invalid)
+
+[RecordManager] Record: 1503 Mission: mod_The200ModuleChallenge_54-RPSLS (invalid)
+
+[RecordManager] Record: 1504 Mission: mod_The200ModuleChallenge_55-Hexamaze (invalid)
+
+[RecordManager] Record: 1505 Mission: mod_The200ModuleChallenge_56-Bitmaps (invalid)
+
+[RecordManager] Record: 1506 Mission: mod_The200ModuleChallenge_57-Colored Squares (invalid)
+
+[RecordManager] Record: 1508 Mission: mod_The200ModuleChallenge_58-Adjacent (invalid)
+
+[RecordManager] Record: 1511 Mission: mod_The200ModuleChallenge_59-ThirdBase (invalid)
+
+[RecordManager] Record: 1516 Mission: mod_The200ModuleChallenge_60-Souvenir (invalid)
+
+[RecordManager] Record: 1517 Mission: mod_The200ModuleChallenge_61-WordSearch (invalid)
+
+[RecordManager] Record: 1518 Mission: mod_The200ModuleChallenge_62-BrokenButtons (invalid)
+
+[RecordManager] Record: 1519 Mission: mod_The200ModuleChallenge_63-Screams (invalid)
+
+[RecordManager] Record: 1520 Mission: mod_The200ModuleChallenge_64-Laundry (invalid)
+
+[RecordManager] Record: 1521 Mission: mod_The200ModuleChallenge_65-MAH (invalid)
+
+[RecordManager] Record: 1522 Mission: mod_The200ModuleChallenge_66-Complicated Buttons (invalid)
+
+[RecordManager] Record: 1524 Mission: mod_The200ModuleChallenge_67-Battleship (invalid)
+
+[RecordManager] Record: 1525 Mission: mod_The200ModuleChallenge_68-TextField (invalid)
+
+[RecordManager] Record: 1526 Mission: mod_The200ModuleChallenge_69-SymbolicPassword (invalid)
+
+[RecordManager] Record: 1527 Mission: mod_The200ModuleChallenge_70-WirePlacement (invalid)
+
+[RecordManager] Record: 1528 Mission: mod_The200ModuleChallenge_71-Double-Oh (invalid)
+
+[RecordManager] Record: 1529 Mission: mod_The200ModuleChallenge_72-CheapCheckout (invalid)
+
+[RecordManager] Record: 1531 Mission: mod_The200ModuleChallenge_73-Coordinates (invalid)
+
+[RecordManager] Record: 1532 Mission: mod_The200ModuleChallenge_74-Light Cycle (invalid)
+
+[RecordManager] Record: 1534 Mission: mod_The200ModuleChallenge_75-Rhythms (invalid)
+
+[RecordManager] Record: 1535 Mission: mod_The200ModuleChallenge_76-ColorMath (invalid)
+
+[RecordManager] Record: 1536 Mission: mod_The200ModuleChallenge_77-Only Connect (invalid)
+
+[RecordManager] Record: 1537 Mission: mod_The200ModuleChallenge_78-Neutralization (invalid)
+
+[RecordManager] Record: 1539 Mission: mod_The200ModuleChallenge_79-Web Design (invalid)
+
+[RecordManager] Record: 1540 Mission: mod_The200ModuleChallenge_80-ChordQualities (invalid)
+
+[RecordManager] Record: 1543 Mission: mod_The200ModuleChallenge_81-Creation (invalid)
+
+[RecordManager] Record: 1545 Mission: mod_The200ModuleChallenge_82-Rubik's Cube (invalid)
+
+[RecordManager] Record: 1546 Mission: mod_The200ModuleChallenge_83-FizzBuzz (invalid)
+
+[RecordManager] Record: 1547 Mission: mod_The200ModuleChallenge_84-The Clock (invalid)
+
+[RecordManager] Record: 1548 Mission: mod_The200ModuleChallenge_85-LED Enc (invalid)
+
+[RecordManager] Record: 1549 Mission: mod_The200ModuleChallenge_86-Bitwise (invalid)
+
+[RecordManager] Record: 1550 Mission: mod_The200ModuleChallenge_87-Fast Math (invalid)
+
+[RecordManager] Record: 1551 Mission: mod_The200ModuleChallenge_88-Minesweeper (invalid)
+
+[RecordManager] Record: 1552 Mission: mod_The200ModuleChallenge_89-Zoo (invalid)
+
+[RecordManager] Record: 1553 Mission: mod_The200ModuleChallenge_90-Binary LEDs (invalid)
+
+[RecordManager] Record: 1555 Mission: mod_The200ModuleChallenge_91-BVD (invalid)
+
+[RecordManager] Record: 1556 Mission: mod_The200ModuleChallenge_92-Pointoforder (invalid)
+
+[RecordManager] Record: 1557 Mission: mod_The200ModuleChallenge_93-Ice Cream (invalid)
+
+[RecordManager] Record: 1558 Mission: mod_The200ModuleChallenge_94-TheScrew (invalid)
+
+[RecordManager] Record: 1560 Mission: mod_The200ModuleChallenge_95-Yahtzee (invalid)
+
+[RecordManager] Record: 1562 Mission: mod_The200ModuleChallenge_96-X-Ray (invalid)
+
+[RecordManager] Record: 1563 Mission: mod_The200ModuleChallenge_97-ColorMorse (invalid)
+
+[RecordManager] Record: 1564 Mission: mod_The200ModuleChallenge_98-Mastermind (invalid)
+
+[RecordManager] Record: 1565 Mission: mod_The200ModuleChallenge_99-Mastermind Cruel (invalid)
+
+[RecordManager] Record: 1566 Mission: mod_The200ModuleChallenge_100-Gridlock (invalid)
+
+[RecordManager] Record: 1567 Mission: mod_The200ModuleChallenge_101-Big Circle (invalid)
+
+[RecordManager] Record: 1568 Mission: mod_The200ModuleChallenge_102-Morse-A-Maze (invalid)
+
+[RecordManager] Record: 1569 Mission: mod_The200ModuleChallenge_103-Colored Switches (invalid)
+
+[RecordManager] Record: 1571 Mission: mod_The200ModuleChallenge_104-Perplexing (invalid)
+
+[RecordManager] Record: 1573 Mission: mod_The200ModuleChallenge_105-Monsplode Trading (invalid)
+
+[RecordManager] Record: 1575 Mission: mod_The200ModuleChallenge_106-GOL (invalid)
+
+[RecordManager] Record: 1579 Mission: mod_The200ModuleChallenge_107-GOLC (invalid)
+
+[RecordManager] Record: 1580 Mission: mod_The200ModuleChallenge_108-Nonogram (invalid)
+
+[RecordManager] Record: 1581 Mission: mod_The200ModuleChallenge_109-SET (invalid)
+
+[RecordManager] Record: 1582 Mission: mod_The200ModuleChallenge_110-Painting (invalid)
+
+[RecordManager] Record: 1583 Mission: mod_The200ModuleChallenge_111-Color Generator (invalid)
+
+[RecordManager] Record: 1584 Mission: mod_The200ModuleChallenge_112-Symbol Cycle (invalid)
+
+[RecordManager] Record: 1586 Mission: mod_The200ModuleChallenge_113-Hunting (invalid)
+
+[RecordManager] Record: 1587 Mission: mod_The200ModuleChallenge_114-Extendedpasswords (invalid)
+
+[RecordManager] Record: 1589 Mission: mod_The200ModuleChallenge_115-Curriculum (invalid)
+
+[RecordManager] Record: 1590 Mission: mod_The200ModuleChallenge_118-Festive (invalid)
+
+[RecordManager] Record: 1591 Mission: mod_The200ModuleChallenge_117-Mafia (invalid)
+
+[RecordManager] Record: 1646 Mission: mod_Mr. Porcu's module training missions_M_Superlogic (invalid)
+
+[RecordManager] Record: 1655 Mission: mod_Mr. Porcu's module training missions_N_Rapid Buttons (invalid)
+
+[RecordManager] Record: 1671 Mission: mod_Mr. Porcu's module training missions_M_Rhythms (invalid)
+
+[RecordManager] Record: 1672 Mission: mod_Mr. Porcu's module training missions_M_LED Grid (invalid)
+
+[StatsManager] Loading stats from stats.xml...
+
+[FileUtilityHelper] Attempting to load "C:/Users/Matthew/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\stats.xml"...
+
+[FileUtilityHelper] Successfully loaded "C:/Users/Matthew/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\stats.xml".
+
+[StatsManager] Recorded Stats:
+
+[StatsManager] thebasicsprogress: IntValue: 4
+
+[StatsManager] moduletypeprogress: IntValue: 11
+
+[StatsManager] totalstrikes: IntValue: 4439
+
+[StatsManager] totalmodulesdisarmed: IntValue: 3760
+
+[StatsManager] totalbombsexploded: IntValue: 880
+
+[StatsManager] totalbombsdefused: IntValue: 540
+
+[StatsManager] moderateprogress: IntValue: 7
+
+[StatsManager] needyprogress: IntValue: 4
+
+[StatsManager] challengingprogress: IntValue: 6
+
+[StatsManager] extremeprogress: IntValue: 4
+
+[StatsManager] exoticprogress: IntValue: 6
+
+[StatsManager] Recorded Achievements:
+
+[StatsManager] firstbomb: unlocked at 12/23/2016 10:07:57
+
+[SceneManager] Creating game states...
+
+[LeaderboardBulkSubmissionWorker] Submitting all unreported leaderboard scores.
+
+[ServicesSteam] Steam service is not initialized. Failed to execute leaderboard request. (Likely because Steam is not running.)
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 920 unused Assets to reduce memory usage. Loaded Objects now: 14288.
+Total: 14.941669 ms (FindLiveObjects: 0.460191 ms CreateObjectMapping: 0.453264 ms MarkObjects: 13.719018 ms  DeleteObjects: 0.308364 ms)
+
+[ModManagerState] Entering ModManagerState
+
+[SceneManager] Fading in...
+
+[ModManager] EnableMods
+
+[ModManager] Loading all mod meta-data
+
+[ModManager] Mod meta-data load complete. 1 mods installed.
+
+[ModManagerState] Enter ModManagerState complete
+
+[MenuScreen] Entering screen ModLoadingScreen
+
+[ModManagerState] Exiting ModManagerState
+
+[ModManager] Loading all mod meta-data
+
+[ModManager] Mod meta-data load complete. 1 mods installed.
+
+[ModManager] Loading all mods from source: Local
+
+[ModManager] Status: Loading Local mod 1 of 1: 
+"Log Viewer Hotkey" FilePath: mods\LogfileHotkey
+
+[ModManager] Loading mod at path: "mods\LogfileHotkey"
+
+[Mod-LogfileHotkey] Mod at path "mods\LogfileHotkey" has ID:"LogfileHotkey"
+
+[Mod-LogfileHotkey] Loading assemblies...
+
+[Mod-LogfileHotkey] Loading "mods\LogfileHotkey\Newtonsoft.Json.dll"...
+
+Non platform assembly: data-2A128870 (this message is harmless)
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Keep Talking and Nobody Explodes/ktane_Data/Mono/data-2A128870.dll
+[Mod-LogfileHotkey] Loading mod assembly "mods\LogfileHotkey\LogfileHotkey.dll"
+
+Non platform assembly: data-18BEE7B0 (this message is harmless)
+Fallback handler could not load library D:/SteamLibrary/steamapps/common/Keep Talking and Nobody Explodes/ktane_Data/Mono/data-18BEE7B0.dll
+[Mod-LogfileHotkey] Load of settings and assemblies for mod "mods\LogfileHotkey" complete.
+
+[ModManager] Loading bundle "mods\LogfileHotkey\mod.bundle"
+
+[Mod-LogfileHotkey] Loading GameObjects...
+
+[Mod-LogfileHotkey] Loading GameObject: LogfileHotkeyService
+
+[Mod-LogfileHotkey] Replacing shaders...
+
+[Mod-LogfileHotkey] Loading KMMissions...
+
+[Mod-LogfileHotkey] Loading KMMissionTableOfContents...
+
+[Mod-LogfileHotkey] Loading AudioClips...
+
+[ModManager] Unloading bundle "mods\LogfileHotkey\mod.bundle"
+
+[ModManager] Finished loading mod at path: "mods\LogfileHotkey"
+
+Platform assembly: D:\SteamLibrary\steamapps\common\Keep Talking and Nobody Explodes\ktane_Data\Managed\System.Data.dll (this message is harmless)
+[LogfileHotkey] "View Log" key combination set to: "SHIFT+F8"
+[LogfileHotkey] "View Last Bomb Log" key combination set to: "SHIFT+F7"
+[LogfileHotkey] "Clear Log" key combination set to: "SHIFT+F9"
+[LogfileHotkey] Auto-link copying set to: "True"
+[LogfileHotkey] "Copy Log" key combination set to: "CTRL+SHIFT+X"
+[LogfileHotkey] Copy last-bomb only set to: "False"
+[ModManager] Loading all mods from source: SteamWorkshop
+
+[ModManager] Status: Building manual FilePath: 
+
+[ModManager] Could not write mod manual, it is likely currently open:
+ Cannot save a PDF document with no pages.
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[ModManager] Status: Mod loading complete. FilePath: 
+
+[SceneManager] Fading out...
+
+[SceneManager] Waiting 0 seconds before completing fade...
+
+[SceneManager] Resetting game!
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.561768 ms
+[MissionManager] Mission manager already initialized!
+
+[SceneManager] Creating game states...
+
+[MissionTableOfContentsPageManager] Showing ToC 0 page 0.
+
+[PrefabOverride] Material override: InputBased: True, CurrentControlType: Mouse, Path: "PC/Materials/controls_poster_mouse"
+
+[LeaderboardBulkSubmissionWorker] Submitting all unreported leaderboard scores.
+
+[ServicesSteam] Steam service is not initialized. Failed to execute leaderboard request. (Likely because Steam is not running.)
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 603 unused Assets to reduce memory usage. Loaded Objects now: 27019.
+Total: 25.148440 ms (FindLiveObjects: 0.939222 ms CreateObjectMapping: 1.152556 ms MarkObjects: 22.641630 ms  DeleteObjects: 0.413645 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+[SceneManager] Fading in...
+
+[State] Enter SetupState
+
+[MissionTableOfContentsPageManager] Showing ToC 0 page 0.
+
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 26490.
+Total: 24.239139 ms (FindLiveObjects: 0.870512 ms CreateObjectMapping: 0.845577 ms MarkObjects: 22.491743 ms  DeleteObjects: 0.030753 ms)
+
+[MissionTableOfContentsPageManager] Showing ToC 0 page 0.
+
+[MissionTableOfContentsPageManager] Showing ToC 0 page 1.
+
+[MissionTableOfContentsPageManager] Showing ToC 0 page 2.
+
+[MissionTableOfContentsPageManager] Showing ToC 0 page 3.
+
+[MissionTableOfContentsPageManager] Showing ToC 0 page 4.
+
+[ServicesSteam] Steam service is not initialized. Failed to execute leaderboard request. (Likely because Steam is not running.)
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[MissionTableOfContentsPageManager] Showing ToC 0 page 4.
+
+[ServicesSteam] Steam service is not initialized. Failed to execute leaderboard request. (Likely because Steam is not running.)
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[State] Preparing to exit setup state
+
+[SceneManager] Fading out...
+
+[State] Exit setup state
+
+[MissionTableOfContentsPageManager] Showing ToC 0 page 4.
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.420265 ms
+
+Unloading 6959 unused Assets to reduce memory usage. Loaded Objects now: 9065.
+Total: 18.554489 ms (FindLiveObjects: 0.695135 ms CreateObjectMapping: 0.698182 ms MarkObjects: 12.469215 ms  DeleteObjects: 4.691401 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.607585 ms
+[MissionManager] Mission manager already initialized!
+
+[SceneManager] Creating game states...
+
+[PrefabOverride] Material override: InputBased: True, CurrentControlType: Mouse, Path: "PC/Materials/controls_poster_mouse"
+
+[Rules] Generating BombRules...
+
+[BombRules] BombRules: Assets.Scripts.Manual.ManualMetaData
+
+[BombRules] WireSet Rules:
+3 wires:
+If there are no red wires, cut the second wire.
+If the last wire is white, cut the last wire.
+If there is more than one blue wire, cut the last blue wire.
+Otherwise, cut the last wire.
+
+4 wires:
+If there is more than one red wire and the last digit of the serial number is odd, cut the last red wire.
+If the last wire is yellow and there are no red wires, cut the first wire.
+If there is exactly one blue wire, cut the first wire.
+If there is more than one yellow wire, cut the last wire.
+Otherwise, cut the second wire.
+
+5 wires:
+If the last wire is black and the last digit of the serial number is odd, cut the fourth wire.
+If there is exactly one red wire and there is more than one yellow wire, cut the first wire.
+If there are no black wires, cut the second wire.
+Otherwise, cut the first wire.
+
+6 wires:
+If there are no yellow wires and the last digit of the serial number is odd, cut the third wire.
+If there is exactly one yellow wire and there is more than one white wire, cut the fourth wire.
+If there are no red wires, cut the last wire.
+Otherwise, cut the fourth wire.
+
+
+
+[BombRules] Who's On First Rules:
+Display Word "Look At" Index:
+YES: 2, FIRST: 1, DISPLAY: 5, OKAY: 1, SAYS: 5, NOTHING: 2, : 4, BLANK: 3, NO: 5, LED: 2, LEAD: 5, READ: 3, RED: 3, REED: 4, LEED: 4, HOLD ON: 5, YOU: 3, YOU ARE: 5, YOUR: 3, YOU'RE: 3, UR: 0, THERE: 5, THEY'RE: 4, THEIR: 3, THEY ARE: 2, SEE: 5, C: 1, CEE: 5, 
+
+Precedent Map:
+READY: YES, OKAY, WHAT, MIDDLE, LEFT, PRESS, RIGHT, BLANK, READY, NO, FIRST, UHHH, NOTHING, WAIT
+FIRST: LEFT, OKAY, YES, MIDDLE, NO, RIGHT, NOTHING, UHHH, WAIT, READY, BLANK, WHAT, PRESS, FIRST
+NO: BLANK, UHHH, WAIT, FIRST, WHAT, READY, RIGHT, YES, NOTHING, LEFT, PRESS, OKAY, NO, MIDDLE
+BLANK: WAIT, RIGHT, OKAY, MIDDLE, BLANK, PRESS, READY, NOTHING, NO, WHAT, LEFT, UHHH, YES, FIRST
+NOTHING: UHHH, RIGHT, OKAY, MIDDLE, YES, BLANK, NO, PRESS, LEFT, WHAT, WAIT, FIRST, NOTHING, READY
+YES: OKAY, RIGHT, UHHH, MIDDLE, FIRST, WHAT, PRESS, READY, NOTHING, YES, LEFT, BLANK, NO, WAIT
+WHAT: UHHH, WHAT, LEFT, NOTHING, READY, BLANK, MIDDLE, NO, OKAY, FIRST, WAIT, YES, PRESS, RIGHT
+UHHH: READY, NOTHING, LEFT, WHAT, OKAY, YES, RIGHT, NO, PRESS, BLANK, UHHH, MIDDLE, WAIT, FIRST
+LEFT: RIGHT, LEFT, FIRST, NO, MIDDLE, YES, BLANK, WHAT, UHHH, WAIT, PRESS, READY, OKAY, NOTHING
+RIGHT: YES, NOTHING, READY, PRESS, NO, WAIT, WHAT, RIGHT, MIDDLE, LEFT, UHHH, BLANK, OKAY, FIRST
+MIDDLE: BLANK, READY, OKAY, WHAT, NOTHING, PRESS, NO, WAIT, LEFT, MIDDLE, RIGHT, FIRST, UHHH, YES
+OKAY: MIDDLE, NO, FIRST, YES, UHHH, NOTHING, WAIT, OKAY, LEFT, READY, BLANK, PRESS, WHAT, RIGHT
+WAIT: UHHH, NO, BLANK, OKAY, YES, LEFT, FIRST, PRESS, WHAT, WAIT, NOTHING, READY, RIGHT, MIDDLE
+PRESS: RIGHT, MIDDLE, YES, READY, PRESS, OKAY, NOTHING, UHHH, BLANK, LEFT, FIRST, WHAT, NO, WAIT
+YOU: SURE, YOU ARE, YOUR, YOU'RE, NEXT, UH HUH, UR, HOLD, WHAT?, YOU, UH UH, LIKE, DONE, U
+YOU ARE: YOUR, NEXT, LIKE, UH HUH, WHAT?, DONE, UH UH, HOLD, YOU, U, YOU'RE, SURE, UR, YOU ARE
+YOUR: UH UH, YOU ARE, UH HUH, YOUR, NEXT, UR, SURE, U, YOU'RE, YOU, WHAT?, HOLD, LIKE, DONE
+YOU'RE: YOU, YOU'RE, UR, NEXT, UH UH, YOU ARE, U, YOUR, WHAT?, UH HUH, SURE, DONE, LIKE, HOLD
+UR: DONE, U, UR, UH HUH, WHAT?, SURE, YOUR, HOLD, YOU'RE, LIKE, NEXT, UH UH, YOU ARE, YOU
+U: UH HUH, SURE, NEXT, WHAT?, YOU'RE, UR, UH UH, DONE, U, YOU, LIKE, HOLD, YOU ARE, YOUR
+UH HUH: UH HUH, YOUR, YOU ARE, YOU, DONE, HOLD, UH UH, NEXT, SURE, LIKE, YOU'RE, UR, U, WHAT?
+UH UH: UR, U, YOU ARE, YOU'RE, NEXT, UH UH, DONE, YOU, UH HUH, LIKE, YOUR, SURE, HOLD, WHAT?
+WHAT?: YOU, HOLD, YOU'RE, YOUR, U, DONE, UH UH, LIKE, YOU ARE, UH HUH, UR, NEXT, WHAT?, SURE
+DONE: SURE, UH HUH, NEXT, WHAT?, YOUR, UR, YOU'RE, HOLD, LIKE, YOU, U, YOU ARE, UH UH, DONE
+NEXT: WHAT?, UH HUH, UH UH, YOUR, HOLD, SURE, NEXT, LIKE, DONE, YOU ARE, UR, YOU'RE, U, YOU
+HOLD: YOU ARE, U, DONE, UH UH, YOU, UR, SURE, WHAT?, YOU'RE, NEXT, HOLD, UH HUH, YOUR, LIKE
+SURE: YOU ARE, DONE, LIKE, YOU'RE, YOU, HOLD, UH HUH, UR, SURE, U, WHAT?, NEXT, YOUR, UH UH
+LIKE: YOU'RE, NEXT, U, UR, HOLD, DONE, UH UH, WHAT?, UH HUH, YOU, LIKE, SURE, YOU ARE, YOUR
+
+
+[BombRules] Keypad Rules:
+Ϙ,Ѧ,ƛ,Ϟ,Ѭ,ϗ,Ͽ
+Ӭ,Ϙ,Ͽ,Ҩ,☆,ϗ,¿
+©,Ѽ,Ҩ,Җ,Ԇ,ƛ,☆
+Ϭ,¶,ѣ,Ѭ,Җ,¿,ټ
+Ψ,ټ,ѣ,Ͼ,¶,ѯ,★
+Ϭ,Ӭ,҂,ӕ,Ψ,Ҋ,Ω
+
+
+[BombRules] Memory Rules:
+Stage 1:
+If the display is 1, press the button in the second position.
+If the display is 2, press the button in the second position.
+If the display is 3, press the button in the third position.
+If the display is 4, press the button in the fourth position.
+
+Stage 2:
+If the display is 1, press the button labeled "4".
+If the display is 2, press the button in the same position as you pressed in stage 1.
+If the display is 3, press the button in the first position.
+If the display is 4, press the button in the same position as you pressed in stage 1.
+
+Stage 3:
+If the display is 1, press the button with the same label you pressed in stage 2.
+If the display is 2, press the button with the same label you pressed in stage 1.
+If the display is 3, press the button in the third position.
+If the display is 4, press the button labeled "4".
+
+Stage 4:
+If the display is 1, press the button in the same position as you pressed in stage 1.
+If the display is 2, press the button in the first position.
+If the display is 3, press the button in the same position as you pressed in stage 2.
+If the display is 4, press the button in the same position as you pressed in stage 2.
+
+Stage 5:
+If the display is 1, press the button with the same label you pressed in stage 1.
+If the display is 2, press the button with the same label you pressed in stage 2.
+If the display is 3, press the button with the same label you pressed in stage 4.
+If the display is 4, press the button with the same label you pressed in stage 3.
+
+
+
+[BombRules] Needy Knob Rules:
+Up Position:
+OOXOXX
+XXXXOX
+
+XOXOXO
+OXXOXX
+
+Down Position:
+OXXOOX
+XXXXOX
+
+XOXOXO
+OXOOOX
+
+Left Position:
+OOOOXO
+XOOXXX
+
+OOOOXO
+OOOXXO
+
+Right Position:
+XOXXXX
+XXXOXO
+
+XOXXOO
+XXXOXO
+
+
+
+[BombRules] Button Rules:
+Initial rules
+If the button is blue and the button says "Abort", hold the button and refer to "Releasing a Held Button".
+If there is more than 1 battery on the bomb and the button says "Detonate", press and immediately release the button.
+If the button is white and there is a lit indicator with label CAR, hold the button and refer to "Releasing a Held Button".
+If there are more than 2 batteries on the bomb and there is a lit indicator with label FRK, press and immediately release the button.
+If the button is yellow, hold the button and refer to "Releasing a Held Button".
+If the button is red and the button says "Hold", press and immediately release the button.
+If none of the above apply, hold the button and refer to "Releasing a Held Button".
+
+On Hold Rules
+If Blue strip:, release when the countdown timer has a 4 in any position..
+If White strip:, release when the countdown timer has a 1 in any position..
+If Yellow strip:, release when the countdown timer has a 5 in any position..
+If Any other color strip:, release when the countdown timer has a 1 in any position..
+
+
+[BombRules] Wire Sequence Rules:
+BLACK Wires: First: [A, B or C], Second: [A or C], Third: [B], Fourth: [A or C], Fifth: [B], Sixth: [B or C], Seventh: [A or B], Eighth: [C], Ninth: [C], 
+BLUE Wires: First: [B], Second: [A or C], Third: [B], Fourth: [A], Fifth: [B], Sixth: [B or C], Seventh: [C], Eighth: [A or C], Ninth: [A], 
+RED Wires: First: [C], Second: [B], Third: [A], Fourth: [A or C], Fifth: [B], Sixth: [A or C], Seventh: [A, B or C], Eighth: [A or B], Ninth: [B], 
+
+
+[BombRules] Password Rules:
+Possibilities: there, which, their, other, about, these, would, write, could, first, water, sound, place, after, thing, think, great, where, right, three, small, large, again, spell, house, point, found, study, still, learn, world, every, below, plant, never
+
+[BombRules] Morse Code Rules:
+WordDict: 
+shell: 3.505 MHz
+halls: 3.515 MHz
+slick: 3.522 MHz
+trick: 3.532 MHz
+boxes: 3.535 MHz
+leaks: 3.542 MHz
+strobe: 3.545 MHz
+bistro: 3.552 MHz
+flick: 3.555 MHz
+bombs: 3.565 MHz
+break: 3.572 MHz
+brick: 3.575 MHz
+steak: 3.582 MHz
+sting: 3.592 MHz
+vector: 3.595 MHz
+beats: 3.600 MHz
+
+
+[BombRules] Venn Wire Rules:
+[Red:False Blue:False Symbol:False LED:False]: Cut
+[Red:False Blue:False Symbol:False LED:True]: DoNotCut
+[Red:False Blue:False Symbol:True LED:False]: Cut
+[Red:False Blue:False Symbol:True LED:True]: CutIfTwoOrMoreBatteriesPresent
+[Red:False Blue:True Symbol:False LED:False]: CutIfSerialEven
+[Red:False Blue:True Symbol:False LED:True]: CutIfParallelPortPresent
+[Red:False Blue:True Symbol:True LED:False]: DoNotCut
+[Red:False Blue:True Symbol:True LED:True]: CutIfParallelPortPresent
+[Red:True Blue:False Symbol:False LED:False]: CutIfSerialEven
+[Red:True Blue:False Symbol:False LED:True]: CutIfTwoOrMoreBatteriesPresent
+[Red:True Blue:False Symbol:True LED:False]: Cut
+[Red:True Blue:False Symbol:True LED:True]: CutIfTwoOrMoreBatteriesPresent
+[Red:True Blue:True Symbol:False LED:False]: CutIfSerialEven
+[Red:True Blue:True Symbol:False LED:True]: CutIfSerialEven
+[Red:True Blue:True Symbol:True LED:False]: CutIfParallelPortPresent
+[Red:True Blue:True Symbol:True LED:True]: DoNotCut
+
+
+[BombRules] Maze Rules:
+Maze 0: 6,320,400,384,384,256,288,96,320,288,352,96,224,192,160,192,32,192,288,320,288,320,160,320,160,96,96,96,352,224,352,224,192,144,128,384,160
+Maze 1: 6,352,320,384,256,384,416,64,160,320,176,448,288,224,320,160,320,384,160,320,160,320,160,320,288,64,304,96,448,160,96,224,192,128,384,384,160
+Maze 2: 6,320,416,320,384,384,288,96,448,128,384,288,96,192,384,384,384,160,96,448,288,320,400,384,160,320,160,192,384,384,288,192,384,384,400,384,160
+Maze 3: 6,336,384,384,400,256,288,192,384,288,352,96,96,352,320,160,96,96,224,96,96,320,32,96,352,96,96,224,96,192,160,192,128,384,128,384,416
+Maze 4: 6,352,320,256,384,384,416,96,96,192,288,320,288,96,96,352,96,96,96,96,64,160,192,32,112,64,160,336,416,224,96,192,416,192,384,384,160
+Maze 5: 6,448,384,256,288,320,288,320,384,160,192,160,96,192,384,416,320,432,96,352,320,384,128,384,160,80,160,320,384,288,352,192,384,160,448,128,160
+Maze 6: 6,320,384,288,320,384,288,112,320,160,192,416,112,96,224,320,256,288,96,192,288,224,96,96,96,320,160,320,160,192,32,192,384,160,448,384,160
+Maze 7: 6,448,256,384,384,384,288,320,32,320,288,448,32,96,224,96,208,288,96,208,288,96,352,96,96,320,160,192,32,96,96,192,384,384,160,224,224
+Maze 8: 6,448,384,256,384,400,288,320,384,32,448,384,160,96,336,160,320,384,288,96,224,320,160,320,160,64,384,160,352,192,288,192,384,384,128,416,224
+
+
+[BombRules] Simon Rules:
+HASVOWEL:
+0 Strikes: Blue, Red, Yellow, Green, 
+1 Strikes: Yellow, Green, Blue, Red, 
+2 Strikes: Green, Red, Yellow, Blue, 
+OTHERWISE:
+0 Strikes: Blue, Yellow, Green, Red, 
+1 Strikes: Red, Blue, Yellow, Green, 
+2 Strikes: Yellow, Green, Blue, Red, 
+
+
+[Rules] BombRules generation complete.
+
+[LeaderboardBulkSubmissionWorker] Submitting all unreported leaderboard scores.
+
+[ServicesSteam] Steam service is not initialized. Failed to execute leaderboard request. (Likely because Steam is not running.)
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 19256.
+Total: 22.009387 ms (FindLiveObjects: 0.682390 ms CreateObjectMapping: 1.017629 ms MarkObjects: 20.231237 ms  DeleteObjects: 0.077852 ms)
+
+[SceneManager] Fading in...
+
+[LogfileHotkey] Log capturing enabled
+[State] Enter GameplayState
+
+[BombGenerator] Generating bomb with seed 163317579
+
+[BombGenerator] Generator settings: Time: 300, NumStrikes: 3, FrontFaceOnly: False
+1 Pools:
+[ALL_SOLVABLE] Count: 11
+
+
+[BombGenerator] BombTypeEnum: Default
+
+[BombGenerator] Instantiated TimerComponent on face FrontFace, spawn index 1
+
+[MissionUtil] Requested mod solvable modules, but none found. Will include base solvable modules.
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[BombGenerator] Selected Keypad (KeypadComponent (KeypadComponent))
+
+[BombGenerator] Selected Memory (MemoryComponent (MemoryComponent))
+
+[BombGenerator] Selected Simon (SimonComponent (SimonComponent))
+
+[BombGenerator] Selected Venn (VennWiresComponent (Assets.Scripts.Components.VennWire.VennWireComponent))
+
+[BombGenerator] Selected WireSequence (WireSequenceComponent (WireSequenceComponent))
+
+[BombGenerator] Selected WhosOnFirst (WhosOnFirstComponent (WhosOnFirstComponent))
+
+[BombGenerator] Selected BigButton (ButtonComponent (ButtonComponent))
+
+[BombGenerator] Selected WireSequence (WireSequenceComponent (WireSequenceComponent))
+
+[BombGenerator] Selected Password (PasswordComponent (PasswordComponent))
+
+[BombGenerator] Selected Morse (MorseComponent (MorseCodeComponent))
+
+[BombGenerator] Selected BigButton (ButtonComponent (ButtonComponent))
+
+[BombGenerator] Bomb component list: RequiresTimerVisibility [ButtonComponent (ButtonComponent), ButtonComponent (ButtonComponent)], AnyFace: [KeypadComponent (KeypadComponent), MemoryComponent (MemoryComponent), SimonComponent (SimonComponent), VennWiresComponent (Assets.Scripts.Components.VennWire.VennWireComponent), WireSequenceComponent (WireSequenceComponent), WhosOnFirstComponent (WhosOnFirstComponent), WireSequenceComponent (WireSequenceComponent), PasswordComponent (PasswordComponent), MorseComponent (MorseCodeComponent)]
+
+[BombGenerator] Instantiating RequiresTimerVisibility components on FrontFace
+
+[BombGenerator] Instantiated ButtonComponent on face FrontFace, spawn index 3
+
+[BombGenerator] Instantiated ButtonComponent on face FrontFace, spawn index 0
+
+[BombGenerator] Instantiating remaining components on any valid face.
+
+[KeypadComponent #1] Symbols selected: "☆", "Ѽ", "Ҩ", "©"
+
+[BombGenerator] Instantiated KeypadComponent on face FrontFace, spawn index 2
+
+[BombGenerator] Instantiated MemoryComponent on face RearFace, spawn index 1
+
+[BombGenerator] Instantiated SimonComponent on face FrontFace, spawn index 5
+
+[BombGenerator] Instantiated VennWiresComponent on face RearFace, spawn index 4
+
+[BombGenerator] Instantiated WireSequenceComponent on face FrontFace, spawn index 4
+
+[BombGenerator] Instantiated WhosOnFirstComponent on face RearFace, spawn index 5
+
+[BombGenerator] Instantiated WireSequenceComponent on face RearFace, spawn index 0
+
+[BombGenerator] Instantiated PasswordComponent on face RearFace, spawn index 2
+
+[BombGenerator] Instantiated MorseComponent on face RearFace, spawn index 3
+
+[BombGenerator] Filling remaining spaces with empty components.
+
+[BombGenerator] Generating Widgets
+
+[SerialNumber] Randomizing Serial Number: PE5HT9
+
+[WidgetGenerator] Added widget: SerialNumber at 0, 1
+
+[WidgetGenerator] Added widget: IndicatorWidget at 0, 1
+
+[IndicatorWidget] Randomizing Indicator Widget: unlit MSA
+
+[WidgetGenerator] Added widget: IndicatorWidget at 0, 0
+
+[IndicatorWidget] Randomizing Indicator Widget: lit SND
+
+[BatteryWidget] Randomizing Battery Widget: 2
+
+[WidgetGenerator] Added widget: BatteryWidget at 1, 0
+
+[WidgetGenerator] Added widget: PortWidget at 1, 1
+
+[PortWidget] Randomizing Port Widget: DVI, RJ45, StereoRCA
+
+[WidgetGenerator] Added widget: IndicatorWidget at 0, 0
+
+[IndicatorWidget] Randomizing Indicator Widget: unlit IND
+
+[MorseCodeComponent #1] Chosen word is: halls (freq=515).
+
+[ButtonComponent #2] open lid
+
+[Rules] Getting solution index for component ButtonComponent(Clone)
+Running rule 0: "Query: the button is blue and the button says "Abort", Solution: hold the button and refer to "Releasing a Held Button""
+Result: false. Rule failed.
+Running rule 1: "Query: there is more than 1 battery on the bomb and the button says "Detonate", Solution: press and immediately release the button"
+Result: true.
+Result: false. Rule failed.
+Running rule 2: "Query: the button is white and there is a lit indicator with label CAR, Solution: hold the button and refer to "Releasing a Held Button""
+Result: true.
+Result: false. Rule failed.
+Running rule 3: "Query: there are more than 2 batteries on the bomb and there is a lit indicator with label FRK, Solution: press and immediately release the button"
+Result: false. Rule failed.
+Running rule 4: "Query: the button is yellow, Solution: hold the button and refer to "Releasing a Held Button""
+Result: false. Rule failed.
+Running rule 5: "Query: the button is red and the button says "Hold", Solution: press and immediately release the button"
+Result: false. Rule failed.
+Running rule 6: "Query: none of the above apply, Solution: hold the button and refer to "Releasing a Held Button""
+Result: true.
+All queries passed. Solution method: hold the button and refer to "Releasing a Held Button"
+Solution index is 1
+
+
+[Rules] Getting solution index for component ButtonComponent(Clone)
+Running rule 0: "Query: Blue strip:, Solution: release when the countdown timer has a 4 in any position."
+Result: false. Rule failed.
+Running rule 1: "Query: White strip:, Solution: release when the countdown timer has a 1 in any position."
+Result: false. Rule failed.
+Running rule 2: "Query: Yellow strip:, Solution: release when the countdown timer has a 5 in any position."
+Result: false. Rule failed.
+Running rule 3: "Query: Any other color strip:, Solution: release when the countdown timer has a 1 in any position."
+Result: true.
+All queries passed. Solution method: release when the countdown timer has a 1 in any position.
+Solution index is 1
+
+
+[Bomb] Strike from BigButton! 1 / 3 strikes
+
+[PaceMaker] PlayerSuccessRating: 0.35 (Factors: solved: 0, strikes: 0.15, time: 0.2)
+
+[StatsManager] Stat 'totalstrikes' changed from 4439 to 4440
+
+[ButtonComponent #2] close lid
+
+[MemoryComponent #1] Button labels are 3,4,1,2
+
+[MemoryComponent #1] Display set to 4
+
+[WhosOnFirstComponent #1] State randomized: Phase: 0, Keypads: READY,PRESS,LEFT,YES,NOTHING,MIDDLE,WHAT,OKAY,RIGHT,FIRST,WAIT,NO,BLANK,UHHH
+
+[WhosOnFirstComponent #1] State randomized: Display word: UR, DisplayWordIndex: 20, Phase: 0
+
+[PasswordRuleset] Password correct answer: below
+
+[MorseCodeComponent #1] PlayWord: halls
+
+[SimonComponent #1] Button Pressed: 0
+
+[Bomb] Strike from Simon! 2 / 3 strikes
+
+[PaceMaker] PlayerSuccessRating: 0.2 (Factors: solved: 0, strikes: 0, time: 0.2)
+
+[StatsManager] Stat 'totalstrikes' changed from 4440 to 4441
+
+[SimonComponent #1] Button Pressed: 2
+
+[Bomb] Strike from Simon! 3 / 3 strikes
+
+[LogfileHotkey] Post-bomb additional log capturing enabled
+[Bomb] Boom
+
+[State] OnRoundEnd()
+
+[PaceMaker] Round over.
+
+[AlarmClock] TurnOff
+
+[SceneManager] Fading out...
+
+[PaceMaker] PlayerSuccessRating: 0.2 (Factors: solved: 0, strikes: 0, time: 0.2)
+
+[StatsManager] Stat 'totalstrikes' changed from 4441 to 4442
+
+[PostGameState] Entered PostGameState.
+
+[StatsManager] Stat 'thebasicsprogress' changed from 4 to 4
+
+[StatsManager] Achievement 'thebasicsprogress' unlocked! (NOT first unlock)
+
+[StatsManager] Stat 'moderateprogress' changed from 7 to 7
+
+[StatsManager] Achievement 'moderateprogress' unlocked! (NOT first unlock)
+
+[StatsManager] Stat 'needyprogress' changed from 4 to 4
+
+[StatsManager] Achievement 'needyprogress' unlocked! (NOT first unlock)
+
+[StatsManager] Stat 'challengingprogress' changed from 6 to 6
+
+[StatsManager] Achievement 'challengingprogress' unlocked! (NOT first unlock)
+
+[StatsManager] Stat 'extremeprogress' changed from 4 to 4
+
+[StatsManager] Achievement 'extremeprogress' unlocked! (NOT first unlock)
+
+[StatsManager] Stat 'exoticprogress' changed from 6 to 6
+
+[StatsManager] Achievement 'exoticprogress' unlocked! (NOT first unlock)
+
+[StatsManager] Stat 'totalbombsexploded' changed from 880 to 881
+
+[SceneManager] Fading in...
+
+[LogfileHotkey] "View Logfile" hotkey pressed.
+[LogfileHotkey] Attempting to post log to ktane.timwi.de
+[LogfileHotkey] Repository of Manual Pages: log now available at That’s not a valid KTANE logfile.

@@ -12,6 +12,7 @@ public class LogfileHotkeyService : MonoBehaviour {
     public KMModSettings ModSettings;
     public KMGameInfo GameInfo;
     public KMBombInfo BombInfo;
+    public NotificationSystem Notifier;
 
     class Settings {
         public string keyViewLogfile;
@@ -95,22 +96,27 @@ public class LogfileHotkeyService : MonoBehaviour {
     public void Update() {
         if (Input.GetKeyDown(viewCode) && CheckModifiers(ref viewModifiers)) {
             Debug.LogFormat("[LogfileHotkey] \"View Logfile\" hotkey pressed.");
+            Notifier.Notify("Opening Log", "Uploading log and opening in default browser...");
             LogfileUploader.Instance.Open(keySettings.copyLogfileLinkWhenViewed != null && (bool)keySettings.copyLogfileLinkWhenViewed);
         }
         if (Input.GetKeyDown(clearCode) && CheckModifiers(ref clearModifiers)) {
             Debug.LogFormat("[LogfileHotkey] \"Clear Logfile\" hotkey pressed.");
             LogfileUploader.Instance.Clear();
             Debug.LogFormat("[LogfileHotkey] Cleared internal log file");
+            Notifier.Warning("Log Cleared", "Internal log file was cleared.");
         }
         if (Input.GetKeyDown(viewLastBombCode) && CheckModifiers(ref viewLastBombModifiers)) {
             Debug.LogFormat("[LogfileHotkey] \"View Last Bomb Logfile\" hotkey pressed.");
+            Notifier.Notify("Opening Log (Last Bomb)", "Uploading log of the latest bomb and opening in default browser...");
             LogfileUploader.Instance.OpenLastBomb(keySettings.copyLogfileLinkWhenViewed != null && (bool)keySettings.copyLogfileLinkWhenViewed);
         }
         if (Input.GetKeyDown(copyCode) && CheckModifiers(ref copyModifiers)) {
             Debug.LogFormat("[LogfileHotkey] \"Copy Logfile Link\" hotkey pressed.");
             if (keySettings.copyLogfileForJustLastBomb != null && (bool) keySettings.copyLogfileForJustLastBomb) {
+                Notifier.Notify("Copying Log Link (Last Bomb)", "Uploading log of the latest bomb and copying link...");
                 LogfileUploader.Instance.OpenLastBomb(true, false);
             } else {
+                Notifier.Notify("Copying Log Link", "Uploading log and copying link...");
                 LogfileUploader.Instance.Open(true, false);
             }
         }

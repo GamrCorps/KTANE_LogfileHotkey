@@ -1,12 +1,17 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.IO;
 using System.Linq;
+using System.Text;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class LogfileUploader : MonoBehaviour {
 
     public static LogfileUploader Instance;
+    public NotificationSystem Notifier;
 
     [HideInInspector]
     public bool loggingEnabled = false;
@@ -51,6 +56,7 @@ public class LogfileUploader : MonoBehaviour {
     };
 
     private LogService[] services = {
+        new TimwiLogService(),
         new HastebinLogService()
     };
 
@@ -77,15 +83,19 @@ public class LogfileUploader : MonoBehaviour {
 
     public void Open(bool copyLink, bool openLink = true) {
         analysisUrl = null;
-        DoPost(Log, openLink, copyLink);
+        StartCoroutine(DoPost(Log, openLink, copyLink));
     }
 
     public void OpenLastBomb(bool copyLink, bool openLink = true) {
         analysisUrl = null;
-        DoPost(LastBombLog, openLink, copyLink);
+        StartCoroutine(DoPost(LastBombLog, openLink, copyLink));
     }
 
-    private void DoPost(string data, bool openLink, bool copyLink) {
+    public bool uploadError = false;
+
+    private IEnumerator DoPost(string data, bool openLink, bool copyLink) {
+        uploadError = false;
+
         data = "Initialize engine version: Log Viewer Hotkey\n" + data;
 
         byte[] encodedData = System.Text.Encoding.UTF8.GetBytes(data);
@@ -94,6 +104,7 @@ public class LogfileUploader : MonoBehaviour {
         bool tooLong = false;
 
         foreach (LogService service in services) {
+            uploadError = false;
             string baseURL = service.BaseURL;
             int uploadLimit = service.UploadLimit;
 
@@ -105,11 +116,20 @@ public class LogfileUploader : MonoBehaviour {
             }
 
             Debug.LogFormat("[LogfileHotkey] Attempting to post log to {0}", baseURL);
-            StartCoroutine(service.Upload(encodedData, openLink, copyLink));
+            Notifier.Notify("Uploading Log", "Attempting to upload log to \"" + baseURL + "\"...");
+            yield return StartCoroutine(service.Upload(encodedData, openLink, copyLink, data));
+            if (uploadError) {
+                //Debug.Log("[LogfileHotkey] Error uploading log file: upload error.");
+                //Notifier.Error("Error Uploading Log", "An unexpected error occurred.");
+                continue;
+            } else {
+                break;
+            }
         }
 
         if (tooLong) {
             Debug.Log("[LogfileHotkey] Error uploading log file: too long.");
+            Notifier.Error("Error Uploading Log", "Log file was too long to upload.");
         }
     }
 
@@ -129,16 +149,18 @@ abstract class LogService {
     public virtual string BaseURL { get; protected set; }
     public virtual int UploadLimit { get; protected set; }
 
-    public abstract IEnumerator Upload(byte[] data, bool openLink, bool copyLink);
+    public abstract IEnumerator Upload(byte[] data, bool openLink, bool copyLink, string rawData);
 }
 
 static class LogUploadUtils {
     public static bool OpenLink(string link) {
         if (string.IsNullOrEmpty(link)) {
             Debug.Log("[LogfileHotkey] No analysis URL available, can't open");
+            LogfileUploader.Instance.Notifier.Error("Error: No Analysis URL", "No analysis URL available, can't open.");
             return false;
         }
         Debug.Log("[LogfileHotkey] Opening link in default browser");
+        LogfileUploader.Instance.Notifier.Notify("Opening Log", "Opening log file in browser...");
         Application.OpenURL(link);
         return true;
     }
@@ -147,17 +169,59 @@ static class LogUploadUtils {
         if (string.IsNullOrEmpty(link)) {
             Debug.Log("[LogfileHotkey] No analysis URL available, can't copy");
             GUIUtility.systemCopyBuffer = "LotfileHotkey Error: Check the log file for more information.";
+            LogfileUploader.Instance.Notifier.Error("Error: No Analysis URL", "No analysis URL available, can't open.");
             return false;
         }
         Debug.Log("[LogfileHotkey] Copying link into clipboard");
         GUIUtility.systemCopyBuffer = link;
+        LogfileUploader.Instance.Notifier.Notify("Log Link Copied", "Log link copied to clipboard.");
         return true;
     }
 
-    private const string LogAnalyzerLink = "https://ktane.timwi.de/More/Logfile%20Analyzer.html";
+    private const string LogAnalyzerLink = "https://ktane.timwi.de/lfa";
 
     public static string LogAnalyzerFor(string url) {
         return string.Format("{0}#url={1}", LogAnalyzerLink, url);
+    }
+}
+
+class TimwiLogService : LogService {
+    public TimwiLogService() {
+        this.Name = "Repository of Manual Pages";
+        this.BaseURL = "ktane.timwi.de";
+        this.UploadLimit = 25 * 1000 * 1000;
+    }
+
+    public override IEnumerator Upload(byte[] data, bool openLink, bool copyLink, string stringData) {
+        string url = "https://ktane.timwi.de/upload-log";
+
+        var formData = new List<IMultipartFormSection> {
+            new MultipartFormFileSection("log", stringData, null, "output_log.txt"),
+            new MultipartFormDataSection("noredirect", "1", Encoding.UTF8, "text/plain")
+        };
+
+        UnityWebRequest www = UnityWebRequest.Post(url, formData);
+        yield return www.Send();
+
+        if (www.isNetworkError || www.isHttpError) {
+            Debug.Log("[LogfileHotkey] Error uploading to Repository of Manual Pages: " + www.error + " (" + www.responseCode + ")");
+            LogfileUploader.Instance.Notifier.Error("Error: Couldn't Upload to Repository of Manual Pages", www.error + " (" + www.responseCode + ")");
+            LogfileUploader.Instance.uploadError = true;
+        } else {
+            string rawUrl = www.downloadHandler.text;
+
+            Debug.Log("[LogfileHotkey] Repository of Manual Pages: log now available at " + rawUrl);
+
+            if (openLink) {
+                LogUploadUtils.OpenLink(rawUrl);
+            }
+
+            if (copyLink) {
+                LogUploadUtils.CopyLink(rawUrl);
+            }
+        }
+
+        yield break;
     }
 }
 
@@ -168,7 +232,7 @@ class HastebinLogService : LogService {
         this.UploadLimit = 400000;
     }
 
-    public override IEnumerator Upload(byte[] data, bool openLink, bool copyLink) {
+    public override IEnumerator Upload(byte[] data, bool openLink, bool copyLink, string rawData) {
         string url = "https://hastebin.com/documents";
 
         WWW www = new WWW(url, data);
@@ -197,6 +261,7 @@ class HastebinLogService : LogService {
             }
         } else {
             Debug.Log("[LogfileHotkey] Error uploading to Hastebin: " + www.error);
+            LogfileUploader.Instance.Notifier.Error("Error: Couldn't Upload to Hastebin", www.error);
         }
 
         yield break;

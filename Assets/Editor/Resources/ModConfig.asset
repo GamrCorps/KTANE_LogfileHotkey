@@ -17,6 +17,6 @@ MonoBehaviour:
     (Control+Shift+F8 to only copy the link) and Shift+F9 to clear the log. Shift+F7
     also opens just the last bomb. These hotkeys can be changed in the ModSettings
     folder. Contact @ZekNikZ#0878 on Discord with any questions/comments.
-  version: 3.2.2
+  version: 3.5
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 3980409d6f6ebb04190881fcc76a4b6a, type: 3}
