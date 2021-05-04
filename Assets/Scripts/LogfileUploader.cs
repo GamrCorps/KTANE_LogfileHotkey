@@ -140,6 +140,10 @@ public class LogfileUploader : MonoBehaviour {
         if (loggingEnabled) {
             Log += message + "\n";
             LastBombLog += message + "\n";
+            if (!String.IsNullOrEmpty(stackTrace)) {
+                Log += stackTrace + "\n";
+                LastBombLog += stackTrace + "\n";
+            }
         }
     }
 }
